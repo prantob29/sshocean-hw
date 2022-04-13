@@ -1,12 +1,12 @@
 @charset "UTF-8";
-label {
-  display: block;
-}
-
 ul {
   list-style: none;
   margin: 0;
   padding: 0;
+}
+
+li {
+  list-style: none;
 }
 
 a {
@@ -84,6 +84,10 @@ p {
   color: rgba(0, 0, 0, 0.5);
 }
 
+.nav__list--linkhome:hover {
+  color: #0061f2;
+}
+
 .nav__link {
   margin-right: 150px;
 }
@@ -103,11 +107,12 @@ p {
 .header__title--paragraph {
   color: rgba(255, 255, 255, 0.5);
   margin-bottom: 30px;
+  font-size: 1.15rem;
 }
 
 .header__link {
   font-size: 0.7rem;
-  padding: 0.8rem 1.5rem;
+  padding: 1rem 1.5rem;
   color: #1f2d41;
   background-color: #eff3f9;
   border-color: #eff3f9;
@@ -115,6 +120,12 @@ p {
   font-weight: 700;
   letter-spacing: 0.15em;
   text-transform: uppercase;
+}
+
+.header__link:hover {
+  color: #1f2d41;
+  background-color: #d3deef;
+  border-color: #cad7eb;
 }
 
 .header__wrapper {

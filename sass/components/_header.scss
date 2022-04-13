@@ -11,11 +11,12 @@
     &__title--paragraph {
         color: rgba(255, 255, 255, .5);
         margin-bottom: 30px;
+        font-size: 1.15rem;
     }
 
     &__link{
         font-size: 0.7rem;
-        padding: 0.8rem 1.5rem;
+        padding: 1rem 1.5rem;
         color: #1f2d41;
         background-color: #eff3f9;
         border-color: #eff3f9;
@@ -23,6 +24,12 @@
         font-weight: 700;
         letter-spacing: 0.15em;
         text-transform: uppercase;
+    }
+
+    &__link:hover {
+        color: #1f2d41;
+        background-color: #d3deef;
+        border-color: #cad7eb;
     }
 
     &__wrapper {

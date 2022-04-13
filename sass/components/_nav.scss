@@ -14,12 +14,15 @@
     &--link {
         margin-right: 6px;
         padding: 8px;
-
     }
 
     &--linkhome {
         font-weight: 500;
         color: $first-text-color;
+    }
+
+    &--linkhome:hover {
+        color: $first-blue;
     }
 }
 
