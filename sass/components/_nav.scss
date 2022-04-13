@@ -4,7 +4,16 @@
     font-family: $first-font;
 
 }
+.nav__list--link {
+    font-weight: 700;
+}
 
-a.nav__list {
-    color: $first-text-color;
+
+.container__nav {
+    justify-content: space-around;
+    display: flex;
+    position: fixed;
+    z-index: 777;
+    background-color: $first-white-color;
+    
 }
