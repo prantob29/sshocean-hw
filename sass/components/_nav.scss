@@ -1,19 +1,28 @@
-.nav__list {
-    display: flex;
-    align-items: center;
-    font-family: $first-font;
-
-}
-.nav__list--link {
-    font-weight: 700;
-}
-
-
 .container__nav {
     justify-content: space-around;
     display: flex;
     position: fixed;
     z-index: 777;
     background-color: $first-white-color;
-    
+
+}
+.nav__list {
+    display: flex;
+    align-items: center;
+    font-family: $first-font;
+
+    &--link {
+        margin-right: 6px;
+        padding: 8px;
+
+    }
+
+    &--linkhome {
+        font-weight: 500;
+        color: $first-text-color;
+    }
+}
+
+.nav__link {
+    margin-right: 150px;
 }

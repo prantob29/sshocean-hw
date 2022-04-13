@@ -1,0 +1,29 @@
+.whats {
+    padding: 3rem 0;
+
+    &__сaption {
+        font-weight: 700;
+        letter-spacing: .15em;
+        text-transform: uppercase;
+        font-size: 0.75rem;
+        color: #0061f2;
+        margin-bottom: 0.5rem;
+        text-align: center;
+        margin-bottom: 0.9rem;
+    }
+
+    &__paragraph {
+        margin-bottom: 0 0 45px 0;
+        font-size: 1.1rem;
+        font-weight: 400;
+        text-align: center;
+        margin-bottom: 45px;
+    }
+
+    &__list {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+}
+
