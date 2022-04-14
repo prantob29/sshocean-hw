@@ -1,0 +1,22 @@
+.need {
+
+    &__сaption {
+            font-size: 1.4rem;
+            margin-bottom: 0.5rem;
+            font-weight: 500;
+            line-height: 1.2;
+            color: #323f52;
+            text-align: center;
+    }
+
+    &__paragraph {
+        font-size: 1.1rem;
+        font-weight: 400;
+        text-align: center;
+        margin-top: 0;
+        margin-bottom: 1rem;
+        line-height: 1.5;
+        color: #687281;
+    }
+
+}
