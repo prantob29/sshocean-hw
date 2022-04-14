@@ -1,5 +1,6 @@
 .servicessecond {
-    
+    background-color: #bfecf2;
+
     &__caption {
         font-size: 1.4rem;
         color: #323f52;
@@ -21,7 +22,9 @@
     }
 
     &__list--wrapper {
+        background-color: $first-white-color;
         width: 364px;
-        height: 350px;
+        box-shadow:0 14px 28px rgba(0, 0, 0, 0.05),
+        0 10px 10px rgba(0, 0, 0, 0.08);
     }
 }
