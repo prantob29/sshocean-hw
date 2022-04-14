@@ -421,6 +421,25 @@ p {
   text-align: center;
 }
 
+.informationsecond__list--wrapper-color {
+  background-color: #6900c7;
+  height: 5rem;
+  width: 5rem;
+  font-size: 1.75rem;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 100%;
+  float: left;
+  text-align: center;
+}
+
 .informationsecond__list--caption {
   color: #0061f2;
   margin-bottom: 0.5rem;

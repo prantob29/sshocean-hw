@@ -28,7 +28,19 @@
         background-color: #0061f2;
         float: left;
         text-align: center;
-        // margin-right: 20px;
+        
+        &-color {
+            background-color: #6900c7;
+            height: 5rem;
+            width: 5rem;
+            font-size: 1.75rem;
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 100%;
+            float: left;
+            text-align: center;
+        }
     }
 
     &__list--caption {
