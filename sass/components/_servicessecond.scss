@@ -1,5 +1,6 @@
 .servicessecond {
     background-color: #bfecf2;
+    padding: 6rem 0 6rem 0;
 
     &__caption {
         font-size: 1.4rem;
@@ -21,10 +22,15 @@
         color: #687281;
     }
 
+    &__list {
+        display: flex;
+    }
+
     &__list--wrapper {
         background-color: $first-white-color;
         width: 364px;
         box-shadow:0 14px 28px rgba(0, 0, 0, 0.05),
         0 10px 10px rgba(0, 0, 0, 0.08);
+        margin: 0 1.5rem 0 1.5rem;
     }
 }
