@@ -26,7 +26,8 @@
         text-transform: uppercase;
     }
 
-    &__link:hover {
+    &__link:hover,
+    &__link:focus {
         color: #1f2d41;
         background-color: #d3deef;
         border-color: #cad7eb;

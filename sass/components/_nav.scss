@@ -21,7 +21,8 @@
         color: $first-text-color;
     }
 
-    &--linkhome:hover {
+    &--linkhome:hover,
+    &--linkhome:focus {
         color: $first-blue;
     }
 }
