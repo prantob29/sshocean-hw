@@ -654,6 +654,21 @@ p {
   text-align: left;
 }
 
+.shadow {
+  padding: 1.35rem;
+}
+
+.shadow:hover {
+  -webkit-transform: translateY(-7px);
+          transform: translateY(-7px);
+  -webkit-box-shadow: 0 0 15px 7px rgba(34, 60, 80, 0.2);
+          box-shadow: 0 0 15px 7px rgba(34, 60, 80, 0.2);
+  -webkit-transition: -webkit-box-shadow 0.5s, -webkit-transform 0.5s;
+  transition: -webkit-box-shadow 0.5s, -webkit-transform 0.5s;
+  transition: box-shadow 0.5s, transform 0.5s;
+  transition: box-shadow 0.5s, transform 0.5s, -webkit-box-shadow 0.5s, -webkit-transform 0.5s;
+}
+
 .footer {
   background-color: #1f2d41;
   padding: 6rem 0 3rem 0;

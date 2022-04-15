@@ -83,3 +83,14 @@
 
 }
     
+.shadow {
+    padding: 1.35rem;
+}
+
+.shadow:hover {
+    transform: translateY(-7px);
+    box-shadow: 0 0 15px 7px rgba(34, 60, 80, 0.2);
+    transition: box-shadow 0.5s,
+    transform 0.5s;
+
+}
