@@ -272,7 +272,7 @@ p {
 
 .servicessecond {
   background-color: #bfecf2;
-  padding: 6rem 0 6rem 0;
+  padding: 3rem 0 6rem 0;
 }
 
 .servicessecond__caption {
@@ -289,7 +289,7 @@ p {
   font-size: 1.1rem;
   font-weight: 400;
   margin-top: 0;
-  margin-bottom: 1rem;
+  margin-bottom: 5rem;
   text-align: center;
   line-height: 1.5;
   color: #687281;
@@ -299,14 +299,21 @@ p {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .servicessecond__list--wrapper {
   background-color: #ffffff;
-  width: 364px;
+  width: 310px;
   -webkit-box-shadow: 0 14px 28px rgba(0, 0, 0, 0.05), 0 10px 10px rgba(0, 0, 0, 0.08);
           box-shadow: 0 14px 28px rgba(0, 0, 0, 0.05), 0 10px 10px rgba(0, 0, 0, 0.08);
-  margin: 0 1.5rem 0 1.5rem;
+  margin: 0 1.5rem 3rem 1.5rem;
+}
+
+.servicessecond__link:hover {
+  -webkit-box-shadow: 0 0.15rem 1.75rem 0 rgba(31, 45, 65, 0.15);
+          box-shadow: 0 0.15rem 1.75rem 0 rgba(31, 45, 65, 0.15);
 }
 
 .need__сaption {
@@ -326,6 +333,14 @@ p {
   margin-bottom: 1rem;
   line-height: 1.5;
   color: #687281;
+}
+
+.need__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
 .informationfirst {

@@ -19,4 +19,9 @@
         color: #687281;
     }
 
+    &__list {
+        display: flex;
+        justify-content: space-around;
+    }
+
 }

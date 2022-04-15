@@ -1,6 +1,6 @@
 .servicessecond {
     background-color: #bfecf2;
-    padding: 6rem 0 6rem 0;
+    padding: 3rem 0 6rem 0;
 
     &__caption {
         font-size: 1.4rem;
@@ -16,7 +16,7 @@
         font-size: 1.1rem;
         font-weight: 400;
         margin-top: 0;
-        margin-bottom: 1rem;
+        margin-bottom: 5rem;
         text-align: center;
         line-height: 1.5;
         color: #687281;
@@ -24,13 +24,26 @@
 
     &__list {
         display: flex;
+        flex-wrap: wrap;
     }
 
     &__list--wrapper {
         background-color: $first-white-color;
-        width: 364px;
-        box-shadow:0 14px 28px rgba(0, 0, 0, 0.05),
+        width: 310px;
+        box-shadow: 0 14px 28px rgba(0, 0, 0, 0.05),
         0 10px 10px rgba(0, 0, 0, 0.08);
-        margin: 0 1.5rem 0 1.5rem;
+        margin: 0 1.5rem 3rem 1.5rem;
+    }
+
+    &__link:hover {
+        box-shadow: 0 0.15rem 1.75rem 0 rgba(31, 45, 65, 0.15);
     }
 }
+
+
+// box-shadow: 0 0.15rem 1.75rem 0 rgb(31 45 65 / 15%);
+// transition: box-shadow .15s ease-in-out,
+// transition: transform .15s ease-in-out,
+// box-shadow .15s ease-in-out;
+// transition: transform .15s ease-in-out,
+// box-shadow .15s ease-in-out,
