@@ -400,10 +400,6 @@ p {
   border-top: 4px solid #1f2d41;
 }
 
-.servicessecond__wrapper--span {
-  display: inline-block;
-}
-
 .need {
   border-top: 1px solid rgba(0, 0, 0, 0.1);
   background-color: #EFF3F9;
@@ -912,20 +908,26 @@ p {
 }
 
 .openvpn__list--title {
-  margin-bottom: 0.8rem;
+  margin-bottom: 1rem;
   font-weight: 500;
   line-height: 1.2;
   color: #323f52;
   font-size: 1rem;
 }
 
-.openvpn__list--country {
+.openvpn__list--wrapper {
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  width: 100%;
+  text-align: center;
   margin-bottom: 0.8rem;
+  padding-top: 0.8rem;
+}
+
+.openvpn__list--country {
   font-weight: 500;
   line-height: 1.2;
   color: #323f52;
   font-size: 1.2rem;
-  border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .openvpn__list--img {
