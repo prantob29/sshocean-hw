@@ -97,14 +97,14 @@
     }
 
     &__wrapper--link {
-        margin-top: 5rem;
+        margin-top: 3rem;
+        border-top: 1px solid rgba(255, 255, 255, .1);
+        padding-top: 35px;
     }
-
+  
     &__wrapper--link,
     &__wrapper--list {
         display: flex;
         justify-content: space-between;
     }
-
-
 }

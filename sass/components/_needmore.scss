@@ -1,9 +1,11 @@
 .need {
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
     background-color: #EFF3F9;
+    padding-bottom: 6rem;
     
     &__сaption {
             font-size: 1.4rem;
-            margin-bottom: 0.5rem;
+            margin: 1.5rem 0 0.5rem 0;
             font-weight: 500;
             line-height: 1.2;
             color: #323f52;
@@ -23,6 +25,7 @@
     &__list {
         display: flex;
         justify-content: space-around;
+        margin-bottom: 6rem;
     }
 
     &__list--wrapper {
