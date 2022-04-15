@@ -149,6 +149,19 @@ p {
   padding: 0 0 0 50px;
 }
 
+.header__wrapper--svg {
+  padding-top: 2rem;
+  color: #eff3f9;
+}
+
+.header__wrapper--svg svg {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 3rem;
+  width: 100%;
+}
+
 .whats {
   padding: 3rem 0 7rem 0;
 }
@@ -271,7 +284,7 @@ p {
 }
 
 .servicessecond {
-  background-color: #bfecf2;
+  background-color: #EFF3F9;
   padding: 3rem 0 6rem 0;
 }
 
@@ -303,17 +316,81 @@ p {
       flex-wrap: wrap;
 }
 
+.servicessecond__list--item {
+  margin-bottom: 5px;
+}
+
+.servicessecond__list--span {
+  color: #323f52;
+  font-size: .875em;
+  font-weight: 400;
+}
+
+.servicessecond__caption {
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+  color: #323f52;
+}
+
 .servicessecond__list--wrapper {
   background-color: #ffffff;
   width: 310px;
   -webkit-box-shadow: 0 14px 28px rgba(0, 0, 0, 0.05), 0 10px 10px rgba(0, 0, 0, 0.08);
           box-shadow: 0 14px 28px rgba(0, 0, 0, 0.05), 0 10px 10px rgba(0, 0, 0, 0.08);
   margin: 0 1.5rem 3rem 1.5rem;
+  border-radius: 5px;
+  padding: 1rem;
+  border-top: 4px solid #0061f2;
 }
 
 .servicessecond__link:hover {
   -webkit-box-shadow: 0 0.15rem 1.75rem 0 rgba(31, 45, 65, 0.15);
           box-shadow: 0 0.15rem 1.75rem 0 rgba(31, 45, 65, 0.15);
+}
+
+.servicessecond__wrapper--first {
+  text-align: center;
+  padding: 1rem 1rem 0.5rem 1rem;
+}
+
+.servicessecond__img {
+  margin-bottom: 20px;
+}
+
+.servicessecond__wrapper--list {
+  margin-left: 25px;
+}
+
+.servicessecond__wrapper--second {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.servicessecond__wrapper--servers {
+  margin-bottom: 15px;
+  border-radius: 10rem;
+  background-color: #bfd6f8;
+  color: #0061f2;
+  padding: 0.05rem;
+}
+
+.servicessecond__wrapper--next {
+  border-radius: 10rem;
+  background-color: #0061f2;
+  padding: 0.75rem;
+  color: #ffffff;
+}
+
+.need {
+  background-color: #EFF3F9;
 }
 
 .need__сaption {
@@ -330,7 +407,7 @@ p {
   font-weight: 400;
   text-align: center;
   margin-top: 0;
-  margin-bottom: 1rem;
+  margin-bottom: 5rem;
   line-height: 1.5;
   color: #687281;
 }
@@ -472,6 +549,15 @@ p {
 
 .informationsecond__list--caption {
   color: #0061f2;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+  margin-top: 0;
+  margin-left: 98px;
+}
+
+.informationsecond__list--caption--color {
+  color: #6900c7;
   margin-bottom: 0.5rem;
   font-weight: 500;
   line-height: 1.2;

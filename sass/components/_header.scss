@@ -45,8 +45,31 @@
     &__img {
         padding: 0 0 0 50px;
     }
+
+    &__wrapper--svg {
+        padding-top: 2rem;
+        color: #eff3f9;
+    }
+
+    &__wrapper--svg svg {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 3rem;
+    width: 100%;
+
+    }
 }
 
+// Нижний svg
 
+// .wave {
+//     overflow: hidden;
+//     vertical-align: middle;
+// }
+
+// .b {
+//     clip-path: url(#a);
+// }
 
 
