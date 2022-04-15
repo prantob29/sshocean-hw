@@ -1,0 +1,1829 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ssh Ocean</title>
+</head>
+
+<body>
+
+    <!-- Nav -->
+
+    <nav class="container__nav">
+        <div class="nav__link nav__list">
+            <div class="wrapper">
+                <a class="nav__link" href="https://sshocean.com/">
+                    <img src="./img/svg/sshocean1.svg" width="167" height="32" alt="SSHOcean" />
+                </a>
+            </div>
+            <div>
+                <ul class="nav__list">
+                    <li class="nav__list--link">
+                        <a class="nav__list--linkhome" href="https://sshocean.com/">Home</a>
+                    </li>
+                    <li class="nav__list--link">
+                        <a class="nav__list--linkhome" href="#">Create Account
+                            <svg class="svg-inline--fa fa-chevron-right fa-w-10 dropdown-arrow" width="6" height="10"
+                                aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-right"
+                                role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" data-fa-i2svg="">
+                                <path fill="currentColor"
+                                    d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z">
+                                </path>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="nav__list--link">
+                        <a class="nav__list--linkhome" href="#">SSH Servers
+                            <svg class="svg-inline--fa fa-chevron-right fa-w-10 dropdown-arrow" width="6" height="10"
+                                aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-right"
+                                role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" data-fa-i2svg="">
+                                <path fill="currentColor"
+                                    d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z">
+                                </path>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="nav__list--link">
+                        <a class="nav__list--linkhome" href="#">OpenVPN
+                        </a>
+                    </li>
+                    <li class="nav__list--link">
+                        <a class="nav__list--linkhome" href="#">ShadowSocks
+                        </a>
+                    </li>
+                    <li class="nav__list--link">
+                        <a href="./trojan.html" class="nav__list--linkhome" href="#">Trojan VPN
+                        </a>
+                    </li>
+                    <li class="nav__list--link">
+                        <a class="nav__list--linkhome" href="#">V2Ray Servers
+                            <svg class="svg-inline--fa fa-chevron-right fa-w-10 dropdown-arrow" width="6" height="10"
+                                aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-right"
+                                role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" data-fa-i2svg="">
+                                <path fill="currentColor"
+                                    d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z">
+                                </path>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="nav__list--link">
+                        <a class="nav__list--linkhome" href="#">Xray Servers
+                            <svg class="svg-inline--fa fa-chevron-right fa-w-10 dropdown-arrow" width="6" height="10"
+                                aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-right"
+                                role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" data-fa-i2svg="">
+                                <path fill="currentColor"
+                                    d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z">
+                                </path>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="nav__list--link">
+                        <a href="./wireguard.html" class="nav__list--linkhome" href="#">WireGuard
+                        </a>
+                    </li>
+                    <li class="nav__list--link">
+                        <a class="nav__list--linkhome" href="#">More Servers
+                            <svg class="svg-inline--fa fa-chevron-right fa-w-10 dropdown-arrow" width="6" height="10"
+                                aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-right"
+                                role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" data-fa-i2svg="">
+                                <path fill="currentColor"
+                                    d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z">
+                                </path>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="nav__list--link">
+                        <a class="nav__list--linkhome" href="#">Tools
+                            <svg class="svg-inline--fa fa-chevron-right fa-w-10 dropdown-arrow" width="6" height="10"
+                                aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-right"
+                                role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" data-fa-i2svg="">
+                                <path fill="currentColor"
+                                    d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z">
+                                </path>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="nav__list--link">
+                        <a class="nav__list--linkhome" href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" class="feather feather-repeat mt-1">
+                                <polyline points="17 1 21 5 17 9"></polyline>
+                                <path d="M3 11V9a4 4 0 0 1 4-4h14"></path>
+                                <polyline points="7 23 3 19 7 15"></polyline>
+                                <path d="M21 13v2a4 4 0 0 1-4 4H3"></path>
+                            </svg>
+                            <span id="clock">Reset in: 07:54:49</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header -->
+
+    <header class="header">
+        <div class="container">
+            <div class="header__wrapper">
+                <div class="header__wrapper--inf">
+                    <h1 class="header__title">Get fast premium SSH and </br> VPN account for free</h1>
+                    <p class="header__title--paragraph">Make Your Connection More Secure and Unblock All Sites </br>
+                        With Free Premium SSH and VPN Accoun</p>
+                    <a class="header__link" href="#our-services">Our Service
+                        <svg class="svg-inline--fa fa-arrow-right fa-w-14 ml-1" width="10" heght="11" aria-hidden="true"
+                            focusable="false" data-prefix="fas" data-icon="arrow-right" role="img"
+                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg="">
+                            <path fill="currentColor"
+                                d="M190.5 66.9l22.2-22.2c9.4-9.4 24.6-9.4 33.9 0L441 239c9.4 9.4 9.4 24.6 0 33.9L246.6 467.3c-9.4 9.4-24.6 9.4-33.9 0l-22.2-22.2c-9.5-9.5-9.3-25 .4-34.3L311.4 296H24c-13.3 0-24-10.7-24-24v-32c0-13.3 10.7-24 24-24h287.4L190.9 101.2c-9.8-9.3-10-24.8-.4-34.3z">
+                            </path>
+                        </svg>
+                    </a>
+                </div>
+                <div class="header__img">
+                    <img class="" src="https://sshocean.com/assets/sbadmin/img/drawkit/color/drawkit-laptop.svg"
+                        width="450" height="450" alt="sshocean">
+                </div>
+            </div>
+            <!-- <div class="header__wrapper--svg">
+                <svg class="wave" style="pointer-events: none" fill="currentColor" preserveAspectRatio="none"
+                    xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1920 75">
+                    <defs>
+                        <style>
+                            .a {
+                                fill: none;
+                            }
+                
+                            .b {
+                                clip-path: url(#a);
+                            }
+                
+                            .d {
+                                opacity: 0.5;
+                                isolation: isolate;
+                            }
+                        </style>
+                        <clipPath id="a">
+                            <rect class="a" width="1920" height="75"></rect>
+                        </clipPath>
+                    </defs>
+                    <title>wave</title>
+                    <g class="b">
+                        <path class="c"
+                            d="M1963,327H-105V65A2647.49,2647.49,0,0,1,431,19c217.7,3.5,239.6,30.8,470,36,297.3,6.7,367.5-36.2,642-28a2511.41,2511.41,0,0,1,420,48">
+                        </path>
+                    </g>
+                    <g class="b">
+                        <path class="d"
+                            d="M-127,404H1963V44c-140.1-28-343.3-46.7-566,22-75.5,23.3-118.5,45.9-162,64-48.6,20.2-404.7,128-784,0C355.2,97.7,341.6,78.3,235,50,86.6,10.6-41.8,6.9-127,10">
+                        </path>
+                    </g>
+                    <g class="b">
+                        <path class="d"
+                            d="M1979,462-155,446V106C251.8,20.2,576.6,15.9,805,30c167.4,10.3,322.3,32.9,680,56,207,13.4,378,20.3,494,24">
+                        </path>
+                    </g>
+                    <g class="b">
+                        <path class="d"
+                            d="M1998,484H-243V100c445.8,26.8,794.2-4.1,1035-39,141-20.4,231.1-40.1,378-45,349.6-11.6,636.7,73.8,828,150">
+                        </path>
+                    </g>
+                </svg>
+            </div>    -->
+        </div>
+    </header>
+
+    <!-- WHAT'S IN HERE -->
+
+    <section class="whats">
+        <div class="container">
+            <h2 class="whats__сaption">WHAT'S IN HERE</h2>
+            <p class="whats__paragraph">We focus on free server providers for VPN services, these are the services
+                available here</p>
+            <ul class="whats__list">
+                <li>
+                    <img src="https://sshocean.com/assets/images/service/ssh.svg" height="40px" alt="SSH Tunneling">
+                </li>
+                <li>
+                    <img src="https://sshocean.com/assets/images/service/openvpn.svg" height="40px" alt="OpenVPN">
+                </li>
+                <li>
+                    <img src="https://sshocean.com/assets/images/service/shadowsocks.svg" height="40px"
+                        alt="ShadowSocks">
+                </li>
+                <li>
+                    <img src="https://sshocean.com/assets/images/service/softether.svg" height="40px"
+                        alt="SoftEther VPN">
+                </li>
+                <li>
+                    <img src="https://sshocean.com/assets/images/service/v2ray.svg" height="40px" alt="V2Ray">
+                </li>
+                <li>
+                    <img src="https://sshocean.com/assets/images/service/wireguard.svg" height="40px" alt="WireGuard">
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Our services first-->
+
+    <section class="servicesfirst" id="#our-services">
+        <div class="container">
+            <h2 class="visually-hidden">Our services</h2>
+            <div class="servicesfirst__wrapper">
+                <div class="servicesfirst__wrapper--wrapper">
+                    Server time:
+                    <span id="qwe">16:35:35</span>
+                    (GMT+7)
+                </div>
+                <div class="servicesfirst__wrapper--wrapper">
+                    Reset time: 00:00 &amp; 12:00
+                </div>
+                <div class="servicesfirst__wrapper--wrapper">
+                    <div id="clockwelcome">Reset in: 07:23:09</div>
+                </div>
+            </div>
+            <ul class="servicesfirst__list">
+                <li>
+                    <div class="servicesfirst__list--wrapper">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                            fill="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="feather feather-user">
+                            <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                            <circle cx="12" cy="7" r="4"></circle>
+                        </svg>
+                    </div>
+                    <h3 class="servicesfirst__list--caption">Personal accounts</h3>
+                    <p class="servicesfirst__list--paragraph">Create your SSH VPN accounts with a username and password
+                        as you wish.</p>
+                </li>
+                <li>
+                    <div class="servicesfirst__list--wrapper">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                            fill="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="feather feather-dollar-sign">
+                            <line x1="12" y1="1" x2="12" y2="23"></line>
+                            <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
+                        </svg>
+                    </div>
+                    <h3 class="servicesfirst__list--caption">Free server</h3>
+                    <p class="servicesfirst__list--paragraph">You are free to create SSH VPN accounts at any time on
+                        this website for free.</p>
+                </li>
+                <li>
+                    <div class="servicesfirst__list--wrapper">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                            fill="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="feather feather-zap">
+                            <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
+                        </svg>
+                    </div>
+                    <h3 class="servicesfirst__list--caption">Faster connection</h3>
+                    <p class="servicesfirst__list--paragraph">Our server SSH VPN makes your internet speed faster with a
+                        very small PING so you will be comfortable surfing the
+                        internet.</p>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- visitor -->
+
+    <div class="container visitor">
+        <p><strong>Hello, visitor!</strong> Please consider to disable your AdBlock or adding sshocean.com to your
+            adblock whitelist. Our ads
+            support the development and upkeep of the site.</p>
+    </div>
+
+    <!-- Our services 2-->
+
+    <section class="servicessecond">
+        <div class="container">
+            <h2 class="servicessecond__caption">Our Services</h2>
+            <p class="servicessecond__paragraph">Create Your Own Tunneling Account for free.</p>
+            <ul class="servicessecond__list">
+
+                <!-- 1 -->
+
+                <li class="servicessecond__list--wrapper">
+                    <a href="">
+                        <div class="">
+                            <div class="servicessecond__wrapper--first">
+                                <img class="servicessecond__img"
+                                    src="https://sshocean.com/assets/sbadmin/img/icon-ssh.svg" width="50" height="50">
+                                <h3 class="servicessecond__caption">SSH 3 Days</h3>
+                            </div>
+                            <ul class="servicessecond__wrapper--list">
+                                <li class="servicessecond__list--item">
+                                    <span>
+                                        <svg widdth="14" height="14" aria-hidden="true" focusable="false"
+                                            data-prefix="far" data-icon="check-circle" role="img"
+                                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg="">
+                                            <path fill="#0061F2"
+                                                d="M256 8C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm0 48c110.532 0 200 89.451 200 200 0 110.532-89.451 200-200 200-110.532 0-200-89.451-200-200 0-110.532 89.451-200 200-200m140.204 130.267l-22.536-22.718c-4.667-4.705-12.265-4.736-16.97-.068L215.346 303.697l-59.792-60.277c-4.667-4.705-12.265-4.736-16.97-.069l-22.719 22.536c-4.705 4.667-4.736 12.265-.068 16.971l90.781 91.516c4.667 4.705 12.265 4.736 16.97.068l172.589-171.204c4.704-4.668 4.734-12.266.067-16.971z">
+                                            </path>
+                                        </svg>
+                                    </span>
+                                    <span class="servicessecond__list--span">
+                                        Simple and Secure
+                                    </span>
+                                </li>
+                                <li class="servicessecond__list--item">
+                                    <span>
+                                        <svg widdth="14" height="14" aria-hidden="true" focusable="false"
+                                            data-prefix="far" data-icon="check-circle" role="img"
+                                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg="">
+                                            <path fill="#0061F2"
+                                                d="M256 8C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm0 48c110.532 0 200 89.451 200 200 0 110.532-89.451 200-200 200-110.532 0-200-89.451-200-200 0-110.532 89.451-200 200-200m140.204 130.267l-22.536-22.718c-4.667-4.705-12.265-4.736-16.97-.068L215.346 303.697l-59.792-60.277c-4.667-4.705-12.265-4.736-16.97-.069l-22.719 22.536c-4.705 4.667-4.736 12.265-.068 16.971l90.781 91.516c4.667 4.705 12.265 4.736 16.97.068l172.589-171.204c4.704-4.668 4.734-12.266.067-16.971z">
+                                            </path>
+                                        </svg>
+                                    </span>
+                                    <span class="servicessecond__list--span">
+                                        Multiple login allowed
+                                    </span>
+                                </li>
+                                <li class="servicessecond__list--item">
+                                    <span>
+                                        <svg class="svg-inline--fa fa-check-circle fa-w-16 text-primary" widdth="14"
+                                            height="14" aria-hidden="true" focusable="false" data-prefix="far"
+                                            data-icon="check-circle" role="img" xmlns="http://www.w3.org/2000/svg"
+                                            viewBox="0 0 512 512" data-fa-i2svg="">
+                                            <path fill="#0061F2"
+                                                d="M256 8C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm0 48c110.532 0 200 89.451 200 200 0 110.532-89.451 200-200 200-110.532 0-200-89.451-200-200 0-110.532 89.451-200 200-200m140.204 130.267l-22.536-22.718c-4.667-4.705-12.265-4.736-16.97-.068L215.346 303.697l-59.792-60.277c-4.667-4.705-12.265-4.736-16.97-.069l-22.719 22.536c-4.705 4.667-4.736 12.265-.068 16.971l90.781 91.516c4.667 4.705 12.265 4.736 16.97.068l172.589-171.204c4.704-4.668 4.734-12.266.067-16.971z">
+                                            </path>
+                                        </svg>
+                                    </span>
+                                    <span class="servicessecond__list--span">
+                                        Protocol TCP/UDP
+                                    </span>
+                                </li>
+                                <li class="servicessecond__list--item">
+                                    <span>
+                                        <svg class="svg-inline--fa fa-check-circle fa-w-16 text-primary" widdth="14"
+                                            height="14" aria-hidden="true" focusable="false" data-prefix="far"
+                                            data-icon="check-circle" role="img" xmlns="http://www.w3.org/2000/svg"
+                                            viewBox="0 0 512 512" data-fa-i2svg="">
+                                            <path fill="#0061F2"
+                                                d="M256 8C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm0 48c110.532 0 200 89.451 200 200 0 110.532-89.451 200-200 200-110.532 0-200-89.451-200-200 0-110.532 89.451-200 200-200m140.204 130.267l-22.536-22.718c-4.667-4.705-12.265-4.736-16.97-.068L215.346 303.697l-59.792-60.277c-4.667-4.705-12.265-4.736-16.97-.069l-22.719 22.536c-4.705 4.667-4.736 12.265-.068 16.971l90.781 91.516c4.667 4.705 12.265 4.736 16.97.068l172.589-171.204c4.704-4.668 4.734-12.266.067-16.971z">
+                                            </path>
+                                        </svg>
+                                    </span>
+                                    <span class="servicessecond__list--span">
+                                        SSL/TLS support
+                                    </span>
+                                </li>
+                            </ul>
+                            <div class="servicessecond__wrapper--second">
+                                <div class="servicessecond__wrapper--servers">
+                                    <b>
+                                        19 servers
+                                    </b>
+                                </div>
+                                <div class="servicessecond__wrapper--next">
+                                    NEXT
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <!-- 2 -->
+                <li class="servicessecond__list--wrapper">
+                    <a href="">
+                        <div class="">
+                            <div class="servicessecond__wrapper--first">
+                                <img class="servicessecond__img"
+                                    src="https://sshocean.com/assets/sbadmin/img/icon-ssh.svg" width="50" height="50">
+                                <h3 class="servicessecond__caption">SSH Indonesia</h3>
+                            </div>
+                            <ul class="servicessecond__wrapper--list">
+                                <li class="servicessecond__list--item">
+                                    <span>
+                                        <svg widdth="14" height="14" aria-hidden="true" focusable="false"
+                                            data-prefix="far" data-icon="check-circle" role="img"
+                                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg="">
+                                            <path fill="#0061F2"
+                                                d="M256 8C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm0 48c110.532 0 200 89.451 200 200 0 110.532-89.451 200-200 200-110.532 0-200-89.451-200-200 0-110.532 89.451-200 200-200m140.204 130.267l-22.536-22.718c-4.667-4.705-12.265-4.736-16.97-.068L215.346 303.697l-59.792-60.277c-4.667-4.705-12.265-4.736-16.97-.069l-22.719 22.536c-4.705 4.667-4.736 12.265-.068 16.971l90.781 91.516c4.667 4.705 12.265 4.736 16.97.068l172.589-171.204c4.704-4.668 4.734-12.266.067-16.971z">
+                                            </path>
+                                        </svg>
+                                    </span>
+                                    <span class="servicessecond__list--span">
+                                        Simple and Secure
+                                    </span>
+                                </li>
+                                <li class="servicessecond__list--item">
+                                    <span>
+                                        <svg widdth="14" height="14" aria-hidden="true" focusable="false"
+                                            data-prefix="far" data-icon="check-circle" role="img"
+                                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg="">
+                                            <path fill="#0061F2"
+                                                d="M256 8C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm0 48c110.532 0 200 89.451 200 200 0 110.532-89.451 200-200 200-110.532 0-200-89.451-200-200 0-110.532 89.451-200 200-200m140.204 130.267l-22.536-22.718c-4.667-4.705-12.265-4.736-16.97-.068L215.346 303.697l-59.792-60.277c-4.667-4.705-12.265-4.736-16.97-.069l-22.719 22.536c-4.705 4.667-4.736 12.265-.068 16.971l90.781 91.516c4.667 4.705 12.265 4.736 16.97.068l172.589-171.204c4.704-4.668 4.734-12.266.067-16.971z">
+                                            </path>
+                                        </svg>
+                                    </span>
+                                    <span class="servicessecond__list--span">
+                                        Multiple login allowed
+                                    </span>
+                                </li>
+                                <li class="servicessecond__list--item">
+                                    <span>
+                                        <svg class="svg-inline--fa fa-check-circle fa-w-16 text-primary" widdth="14"
+                                            height="14" aria-hidden="true" focusable="false" data-prefix="far"
+                                            data-icon="check-circle" role="img" xmlns="http://www.w3.org/2000/svg"
+                                            viewBox="0 0 512 512" data-fa-i2svg="">
+                                            <path fill="#0061F2"
+                                                d="M256 8C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm0 48c110.532 0 200 89.451 200 200 0 110.532-89.451 200-200 200-110.532 0-200-89.451-200-200 0-110.532 89.451-200 200-200m140.204 130.267l-22.536-22.718c-4.667-4.705-12.265-4.736-16.97-.068L215.346 303.697l-59.792-60.277c-4.667-4.705-12.265-4.736-16.97-.069l-22.719 22.536c-4.705 4.667-4.736 12.265-.068 16.971l90.781 91.516c4.667 4.705 12.265 4.736 16.97.068l172.589-171.204c4.704-4.668 4.734-12.266.067-16.971z">
+                                            </path>
+                                        </svg>
+                                    </span>
+                                    <span class="servicessecond__list--span">
+                                        Protocol TCP/UDP
+                                    </span>
+                                </li>
+                                <li class="servicessecond__list--item">
+                                    <span>
+                                        <svg class="svg-inline--fa fa-check-circle fa-w-16 text-primary" widdth="14"
+                                            height="14" aria-hidden="true" focusable="false" data-prefix="far"
+                                            data-icon="check-circle" role="img" xmlns="http://www.w3.org/2000/svg"
+                                            viewBox="0 0 512 512" data-fa-i2svg="">
+                                            <path fill="#0061F2"
+                                                d="M256 8C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm0 48c110.532 0 200 89.451 200 200 0 110.532-89.451 200-200 200-110.532 0-200-89.451-200-200 0-110.532 89.451-200 200-200m140.204 130.267l-22.536-22.718c-4.667-4.705-12.265-4.736-16.97-.068L215.346 303.697l-59.792-60.277c-4.667-4.705-12.265-4.736-16.97-.069l-22.719 22.536c-4.705 4.667-4.736 12.265-.068 16.971l90.781 91.516c4.667 4.705 12.265 4.736 16.97.068l172.589-171.204c4.704-4.668 4.734-12.266.067-16.971z">
+                                            </path>
+                                        </svg>
+                                    </span>
+                                    <span class="servicessecond__list--span">
+                                        SSL/TLS support
+                                    </span>
+                                </li>
+                            </ul>
+                            <div class="servicessecond__wrapper--second">
+                                <div class="servicessecond__wrapper--servers">
+                                    <b>
+                                        5 servers
+                                    </b>
+                                </div>
+                                <div class="servicessecond__wrapper--next">
+                                    NEXT
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <!--3  -->
+                <li class="servicessecond__list--wrapper">
+                    <a href="">
+                        <div class="">
+                            <div class="servicessecond__wrapper--first">
+                                <img class="servicessecond__img"
+                                    src="https://sshocean.com/assets/sbadmin/img/icon-ssh.svg" width="50" height="50">
+                                <h3 class="servicessecond__caption">SSH WebSocket</h3>
+                            </div>
+                            <ul class="servicessecond__wrapper--list">
+                                <li class="servicessecond__list--item">
+                                    <span>
+                                        <svg widdth="14" height="14" aria-hidden="true" focusable="false"
+                                            data-prefix="far" data-icon="check-circle" role="img"
+                                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg="">
+                                            <path fill="#0061F2"
+                                                d="M256 8C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm0 48c110.532 0 200 89.451 200 200 0 110.532-89.451 200-200 200-110.532 0-200-89.451-200-200 0-110.532 89.451-200 200-200m140.204 130.267l-22.536-22.718c-4.667-4.705-12.265-4.736-16.97-.068L215.346 303.697l-59.792-60.277c-4.667-4.705-12.265-4.736-16.97-.069l-22.719 22.536c-4.705 4.667-4.736 12.265-.068 16.971l90.781 91.516c4.667 4.705 12.265 4.736 16.97.068l172.589-171.204c4.704-4.668 4.734-12.266.067-16.971z">
+                                            </path>
+                                        </svg>
+                                    </span>
+                                    <span class="servicessecond__list--span">
+                                        SSH Over Websocket
+                                    </span>
+                                </li>
+                                <li class="servicessecond__list--item">
+                                    <span>
+                                        <svg widdth="14" height="14" aria-hidden="true" focusable="false"
+                                            data-prefix="far" data-icon="check-circle" role="img"
+                                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg="">
+                                            <path fill="#0061F2"
+                                                d="M256 8C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm0 48c110.532 0 200 89.451 200 200 0 110.532-89.451 200-200 200-110.532 0-200-89.451-200-200 0-110.532 89.451-200 200-200m140.204 130.267l-22.536-22.718c-4.667-4.705-12.265-4.736-16.97-.068L215.346 303.697l-59.792-60.277c-4.667-4.705-12.265-4.736-16.97-.069l-22.719 22.536c-4.705 4.667-4.736 12.265-.068 16.971l90.781 91.516c4.667 4.705 12.265 4.736 16.97.068l172.589-171.204c4.704-4.668 4.734-12.266.067-16.971z">
+                                            </path>
+                                        </svg>
+                                    </span>
+                                    <span class="servicessecond__list--span">
+                                        Using CDN Cloudflare
+                                    </span>
+                                </li>
+                                <li class="servicessecond__list--item">
+                                    <span>
+                                        <svg class="svg-inline--fa fa-check-circle fa-w-16 text-primary" widdth="14"
+                                            height="14" aria-hidden="true" focusable="false" data-prefix="far"
+                                            data-icon="check-circle" role="img" xmlns="http://www.w3.org/2000/svg"
+                                            viewBox="0 0 512 512" data-fa-i2svg="">
+                                            <path fill="#0061F2"
+                                                d="M256 8C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm0 48c110.532 0 200 89.451 200 200 0 110.532-89.451 200-200 200-110.532 0-200-89.451-200-200 0-110.532 89.451-200 200-200m140.204 130.267l-22.536-22.718c-4.667-4.705-12.265-4.736-16.97-.068L215.346 303.697l-59.792-60.277c-4.667-4.705-12.265-4.736-16.97-.069l-22.719 22.536c-4.705 4.667-4.736 12.265-.068 16.971l90.781 91.516c4.667 4.705 12.265 4.736 16.97.068l172.589-171.204c4.704-4.668 4.734-12.266.067-16.971z">
+                                            </path>
+                                        </svg>
+                                    </span>
+                                    <span class="servicessecond__list--span">
+                                        HTTP and SSL/TLS support
+                                    </span>
+                                </li>
+                                <li class="servicessecond__list--item">
+                                    <span>
+                                        <svg class="svg-inline--fa fa-check-circle fa-w-16 text-primary" widdth="14"
+                                            height="14" aria-hidden="true" focusable="false" data-prefix="far"
+                                            data-icon="check-circle" role="img" xmlns="http://www.w3.org/2000/svg"
+                                            viewBox="0 0 512 512" data-fa-i2svg="">
+                                            <path fill="#0061F2"
+                                                d="M256 8C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm0 48c110.532 0 200 89.451 200 200 0 110.532-89.451 200-200 200-110.532 0-200-89.451-200-200 0-110.532 89.451-200 200-200m140.204 130.267l-22.536-22.718c-4.667-4.705-12.265-4.736-16.97-.068L215.346 303.697l-59.792-60.277c-4.667-4.705-12.265-4.736-16.97-.069l-22.719 22.536c-4.705 4.667-4.736 12.265-.068 16.971l90.781 91.516c4.667 4.705 12.265 4.736 16.97.068l172.589-171.204c4.704-4.668 4.734-12.266.067-16.971z">
+                                            </path>
+                                        </svg>
+                                    </span>
+                                    <span class="servicessecond__list--span">
+                                        New Method Tunneling
+                                    </span>
+                                </li>
+                            </ul>
+                            <div class="servicessecond__wrapper--second">
+                                <div class="servicessecond__wrapper--servers">
+                                    <b>
+                                        40 servers
+                                    </b>
+                                </div>
+                                <div class="servicessecond__wrapper--next">
+                                    NEXT
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+
+                <!-- 4 -->
+
+                <li class="servicessecond__list--wrapper">
+                    <a href="">
+                        <div class="">
+                            <div class="servicessecond__wrapper--first">
+                                <img class="servicessecond__img"
+                                    src="https://sshocean.com/assets/sbadmin/img/icon-openvpn.svg" width="50"
+                                    height="50">
+                                <h3 class="servicessecond__caption">SSH 3 Days</h3>
+                            </div>
+                            <ul class="servicessecond__wrapper--list">
+                                <li class="servicessecond__list--item">
+                                    <span>
+                                        <svg widdth="14" height="14" aria-hidden="true" focusable="false"
+                                            data-prefix="far" data-icon="check-circle" role="img"
+                                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg="">
+                                            <path fill="#0061F2"
+                                                d="M256 8C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm0 48c110.532 0 200 89.451 200 200 0 110.532-89.451 200-200 200-110.532 0-200-89.451-200-200 0-110.532 89.451-200 200-200m140.204 130.267l-22.536-22.718c-4.667-4.705-12.265-4.736-16.97-.068L215.346 303.697l-59.792-60.277c-4.667-4.705-12.265-4.736-16.97-.069l-22.719 22.536c-4.705 4.667-4.736 12.265-.068 16.971l90.781 91.516c4.667 4.705 12.265 4.736 16.97.068l172.589-171.204c4.704-4.668 4.734-12.266.067-16.971z">
+                                            </path>
+                                        </svg>
+                                    </span>
+                                    <span class="servicessecond__list--span">
+                                        Simple and Secure
+                                    </span>
+                                </li>
+                                <li class="servicessecond__list--item">
+                                    <span>
+                                        <svg widdth="14" height="14" aria-hidden="true" focusable="false"
+                                            data-prefix="far" data-icon="check-circle" role="img"
+                                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg="">
+                                            <path fill="#0061F2"
+                                                d="M256 8C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm0 48c110.532 0 200 89.451 200 200 0 110.532-89.451 200-200 200-110.532 0-200-89.451-200-200 0-110.532 89.451-200 200-200m140.204 130.267l-22.536-22.718c-4.667-4.705-12.265-4.736-16.97-.068L215.346 303.697l-59.792-60.277c-4.667-4.705-12.265-4.736-16.97-.069l-22.719 22.536c-4.705 4.667-4.736 12.265-.068 16.971l90.781 91.516c4.667 4.705 12.265 4.736 16.97.068l172.589-171.204c4.704-4.668 4.734-12.266.067-16.971z">
+                                            </path>
+                                        </svg>
+                                    </span>
+                                    <span class="servicessecond__list--span">
+                                        Multiple login allowed
+                                    </span>
+                                </li>
+                                <li class="servicessecond__list--item">
+                                    <span>
+                                        <svg class="svg-inline--fa fa-check-circle fa-w-16 text-primary" widdth="14"
+                                            height="14" aria-hidden="true" focusable="false" data-prefix="far"
+                                            data-icon="check-circle" role="img" xmlns="http://www.w3.org/2000/svg"
+                                            viewBox="0 0 512 512" data-fa-i2svg="">
+                                            <path fill="#0061F2"
+                                                d="M256 8C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm0 48c110.532 0 200 89.451 200 200 0 110.532-89.451 200-200 200-110.532 0-200-89.451-200-200 0-110.532 89.451-200 200-200m140.204 130.267l-22.536-22.718c-4.667-4.705-12.265-4.736-16.97-.068L215.346 303.697l-59.792-60.277c-4.667-4.705-12.265-4.736-16.97-.069l-22.719 22.536c-4.705 4.667-4.736 12.265-.068 16.971l90.781 91.516c4.667 4.705 12.265 4.736 16.97.068l172.589-171.204c4.704-4.668 4.734-12.266.067-16.971z">
+                                            </path>
+                                        </svg>
+                                    </span>
+                                    <span class="servicessecond__list--span">
+                                        Protocol TCP/UDP
+                                    </span>
+                                </li>
+                                <li class="servicessecond__list--item">
+                                    <span>
+                                        <svg class="svg-inline--fa fa-check-circle fa-w-16 text-primary" widdth="14"
+                                            height="14" aria-hidden="true" focusable="false" data-prefix="far"
+                                            data-icon="check-circle" role="img" xmlns="http://www.w3.org/2000/svg"
+                                            viewBox="0 0 512 512" data-fa-i2svg="">
+                                            <path fill="#0061F2"
+                                                d="M256 8C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm0 48c110.532 0 200 89.451 200 200 0 110.532-89.451 200-200 200-110.532 0-200-89.451-200-200 0-110.532 89.451-200 200-200m140.204 130.267l-22.536-22.718c-4.667-4.705-12.265-4.736-16.97-.068L215.346 303.697l-59.792-60.277c-4.667-4.705-12.265-4.736-16.97-.069l-22.719 22.536c-4.705 4.667-4.736 12.265-.068 16.971l90.781 91.516c4.667 4.705 12.265 4.736 16.97.068l172.589-171.204c4.704-4.668 4.734-12.266.067-16.971z">
+                                            </path>
+                                        </svg>
+                                    </span>
+                                    <span class="servicessecond__list--span">
+                                        SSL/TLS support
+                                    </span>
+                                </li>
+                            </ul>
+                            <div class="servicessecond__wrapper--second">
+                                <div class="servicessecond__wrapper--servers">
+                                    <b>
+                                        19 servers
+                                    </b>
+                                </div>
+                                <div class="servicessecond__wrapper--next">
+                                    NEXT
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+
+                <!-- 5 -->
+
+                <li class="servicessecond__list--wrapper">
+                    <a href="">
+                        <div class="">
+                            <div class="servicessecond__wrapper--first">
+                                <img class="servicessecond__img"
+                                    src="https://sshocean.com/assets/sbadmin/img/icon-shadowsocks.svg" width="50"
+                                    height="50">
+                                <h3 class="servicessecond__caption">SSH 3 Days</h3>
+                            </div>
+                            <ul class="servicessecond__wrapper--list">
+                                <li class="servicessecond__list--item">
+                                    <span>
+                                        <svg widdth="14" height="14" aria-hidden="true" focusable="false"
+                                            data-prefix="far" data-icon="check-circle" role="img"
+                                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg="">
+                                            <path fill="#0061F2"
+                                                d="M256 8C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm0 48c110.532 0 200 89.451 200 200 0 110.532-89.451 200-200 200-110.532 0-200-89.451-200-200 0-110.532 89.451-200 200-200m140.204 130.267l-22.536-22.718c-4.667-4.705-12.265-4.736-16.97-.068L215.346 303.697l-59.792-60.277c-4.667-4.705-12.265-4.736-16.97-.069l-22.719 22.536c-4.705 4.667-4.736 12.265-.068 16.971l90.781 91.516c4.667 4.705 12.265 4.736 16.97.068l172.589-171.204c4.704-4.668 4.734-12.266.067-16.971z">
+                                            </path>
+                                        </svg>
+                                    </span>
+                                    <span class="servicessecond__list--span">
+                                        Simple and Secure
+                                    </span>
+                                </li>
+                                <li class="servicessecond__list--item">
+                                    <span>
+                                        <svg widdth="14" height="14" aria-hidden="true" focusable="false"
+                                            data-prefix="far" data-icon="check-circle" role="img"
+                                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg="">
+                                            <path fill="#0061F2"
+                                                d="M256 8C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm0 48c110.532 0 200 89.451 200 200 0 110.532-89.451 200-200 200-110.532 0-200-89.451-200-200 0-110.532 89.451-200 200-200m140.204 130.267l-22.536-22.718c-4.667-4.705-12.265-4.736-16.97-.068L215.346 303.697l-59.792-60.277c-4.667-4.705-12.265-4.736-16.97-.069l-22.719 22.536c-4.705 4.667-4.736 12.265-.068 16.971l90.781 91.516c4.667 4.705 12.265 4.736 16.97.068l172.589-171.204c4.704-4.668 4.734-12.266.067-16.971z">
+                                            </path>
+                                        </svg>
+                                    </span>
+                                    <span class="servicessecond__list--span">
+                                        Multiple login allowed
+                                    </span>
+                                </li>
+                                <li class="servicessecond__list--item">
+                                    <span>
+                                        <svg class="svg-inline--fa fa-check-circle fa-w-16 text-primary" widdth="14"
+                                            height="14" aria-hidden="true" focusable="false" data-prefix="far"
+                                            data-icon="check-circle" role="img" xmlns="http://www.w3.org/2000/svg"
+                                            viewBox="0 0 512 512" data-fa-i2svg="">
+                                            <path fill="#0061F2"
+                                                d="M256 8C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm0 48c110.532 0 200 89.451 200 200 0 110.532-89.451 200-200 200-110.532 0-200-89.451-200-200 0-110.532 89.451-200 200-200m140.204 130.267l-22.536-22.718c-4.667-4.705-12.265-4.736-16.97-.068L215.346 303.697l-59.792-60.277c-4.667-4.705-12.265-4.736-16.97-.069l-22.719 22.536c-4.705 4.667-4.736 12.265-.068 16.971l90.781 91.516c4.667 4.705 12.265 4.736 16.97.068l172.589-171.204c4.704-4.668 4.734-12.266.067-16.971z">
+                                            </path>
+                                        </svg>
+                                    </span>
+                                    <span class="servicessecond__list--span">
+                                        Protocol TCP/UDP
+                                    </span>
+                                </li>
+                                <li class="servicessecond__list--item">
+                                    <span>
+                                        <svg class="svg-inline--fa fa-check-circle fa-w-16 text-primary" widdth="14"
+                                            height="14" aria-hidden="true" focusable="false" data-prefix="far"
+                                            data-icon="check-circle" role="img" xmlns="http://www.w3.org/2000/svg"
+                                            viewBox="0 0 512 512" data-fa-i2svg="">
+                                            <path fill="#0061F2"
+                                                d="M256 8C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm0 48c110.532 0 200 89.451 200 200 0 110.532-89.451 200-200 200-110.532 0-200-89.451-200-200 0-110.532 89.451-200 200-200m140.204 130.267l-22.536-22.718c-4.667-4.705-12.265-4.736-16.97-.068L215.346 303.697l-59.792-60.277c-4.667-4.705-12.265-4.736-16.97-.069l-22.719 22.536c-4.705 4.667-4.736 12.265-.068 16.971l90.781 91.516c4.667 4.705 12.265 4.736 16.97.068l172.589-171.204c4.704-4.668 4.734-12.266.067-16.971z">
+                                            </path>
+                                        </svg>
+                                    </span>
+                                    <span class="servicessecond__list--span">
+                                        SSL/TLS support
+                                    </span>
+                                </li>
+                            </ul>
+                            <div class="servicessecond__wrapper--second">
+                                <div class="servicessecond__wrapper--servers">
+                                    <b>
+                                        19 servers
+                                    </b>
+                                </div>
+                                <div class="servicessecond__wrapper--next">
+                                    NEXT
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+
+                <!-- 6 -->
+
+                <li class="servicessecond__list--wrapper">
+                    <a href="">
+                        <div class="">
+                            <div class="servicessecond__wrapper--first">
+                                <img class="servicessecond__img"
+                                    src="https://sshocean.com/assets/sbadmin/img/icon-trojan.svg" width="50"
+                                    height="50">
+                                <h3 class="servicessecond__caption">SSH 3 Days</h3>
+                            </div>
+                            <ul class="servicessecond__wrapper--list">
+                                <li class="servicessecond__list--item">
+                                    <span>
+                                        <svg widdth="14" height="14" aria-hidden="true" focusable="false"
+                                            data-prefix="far" data-icon="check-circle" role="img"
+                                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg="">
+                                            <path fill="#0061F2"
+                                                d="M256 8C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm0 48c110.532 0 200 89.451 200 200 0 110.532-89.451 200-200 200-110.532 0-200-89.451-200-200 0-110.532 89.451-200 200-200m140.204 130.267l-22.536-22.718c-4.667-4.705-12.265-4.736-16.97-.068L215.346 303.697l-59.792-60.277c-4.667-4.705-12.265-4.736-16.97-.069l-22.719 22.536c-4.705 4.667-4.736 12.265-.068 16.971l90.781 91.516c4.667 4.705 12.265 4.736 16.97.068l172.589-171.204c4.704-4.668 4.734-12.266.067-16.971z">
+                                            </path>
+                                        </svg>
+                                    </span>
+                                    <span class="servicessecond__list--span">
+                                        Simple and Secure
+                                    </span>
+                                </li>
+                                <li class="servicessecond__list--item">
+                                    <span>
+                                        <svg widdth="14" height="14" aria-hidden="true" focusable="false"
+                                            data-prefix="far" data-icon="check-circle" role="img"
+                                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg="">
+                                            <path fill="#0061F2"
+                                                d="M256 8C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm0 48c110.532 0 200 89.451 200 200 0 110.532-89.451 200-200 200-110.532 0-200-89.451-200-200 0-110.532 89.451-200 200-200m140.204 130.267l-22.536-22.718c-4.667-4.705-12.265-4.736-16.97-.068L215.346 303.697l-59.792-60.277c-4.667-4.705-12.265-4.736-16.97-.069l-22.719 22.536c-4.705 4.667-4.736 12.265-.068 16.971l90.781 91.516c4.667 4.705 12.265 4.736 16.97.068l172.589-171.204c4.704-4.668 4.734-12.266.067-16.971z">
+                                            </path>
+                                        </svg>
+                                    </span>
+                                    <span class="servicessecond__list--span">
+                                        Multiple login allowed
+                                    </span>
+                                </li>
+                                <li class="servicessecond__list--item">
+                                    <span>
+                                        <svg class="svg-inline--fa fa-check-circle fa-w-16 text-primary" widdth="14"
+                                            height="14" aria-hidden="true" focusable="false" data-prefix="far"
+                                            data-icon="check-circle" role="img" xmlns="http://www.w3.org/2000/svg"
+                                            viewBox="0 0 512 512" data-fa-i2svg="">
+                                            <path fill="#0061F2"
+                                                d="M256 8C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm0 48c110.532 0 200 89.451 200 200 0 110.532-89.451 200-200 200-110.532 0-200-89.451-200-200 0-110.532 89.451-200 200-200m140.204 130.267l-22.536-22.718c-4.667-4.705-12.265-4.736-16.97-.068L215.346 303.697l-59.792-60.277c-4.667-4.705-12.265-4.736-16.97-.069l-22.719 22.536c-4.705 4.667-4.736 12.265-.068 16.971l90.781 91.516c4.667 4.705 12.265 4.736 16.97.068l172.589-171.204c4.704-4.668 4.734-12.266.067-16.971z">
+                                            </path>
+                                        </svg>
+                                    </span>
+                                    <span class="servicessecond__list--span">
+                                        Protocol TCP/UDP
+                                    </span>
+                                </li>
+                                <li class="servicessecond__list--item">
+                                    <span>
+                                        <svg class="svg-inline--fa fa-check-circle fa-w-16 text-primary" widdth="14"
+                                            height="14" aria-hidden="true" focusable="false" data-prefix="far"
+                                            data-icon="check-circle" role="img" xmlns="http://www.w3.org/2000/svg"
+                                            viewBox="0 0 512 512" data-fa-i2svg="">
+                                            <path fill="#0061F2"
+                                                d="M256 8C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm0 48c110.532 0 200 89.451 200 200 0 110.532-89.451 200-200 200-110.532 0-200-89.451-200-200 0-110.532 89.451-200 200-200m140.204 130.267l-22.536-22.718c-4.667-4.705-12.265-4.736-16.97-.068L215.346 303.697l-59.792-60.277c-4.667-4.705-12.265-4.736-16.97-.069l-22.719 22.536c-4.705 4.667-4.736 12.265-.068 16.971l90.781 91.516c4.667 4.705 12.265 4.736 16.97.068l172.589-171.204c4.704-4.668 4.734-12.266.067-16.971z">
+                                            </path>
+                                        </svg>
+                                    </span>
+                                    <span class="servicessecond__list--span">
+                                        SSL/TLS support
+                                    </span>
+                                </li>
+                            </ul>
+                            <div class="servicessecond__wrapper--second">
+                                <div class="servicessecond__wrapper--servers">
+                                    <b>
+                                        19 servers
+                                    </b>
+                                </div>
+                                <div class="servicessecond__wrapper--next">
+                                    NEXT
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+
+                <!-- 7 -->
+
+                <li class="servicessecond__list--wrapper">
+                    <a href="">
+                        <div class="">
+                            <div class="servicessecond__wrapper--first">
+                                <img class="servicessecond__img"
+                                    src="https://sshocean.com/assets/sbadmin/img/icon-wireguard.svg" width="50"
+                                    height="50">
+                                <h3 class="servicessecond__caption">SSH 3 Days</h3>
+                            </div>
+                            <ul class="servicessecond__wrapper--list">
+                                <li class="servicessecond__list--item">
+                                    <span>
+                                        <svg widdth="14" height="14" aria-hidden="true" focusable="false"
+                                            data-prefix="far" data-icon="check-circle" role="img"
+                                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg="">
+                                            <path fill="#0061F2"
+                                                d="M256 8C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm0 48c110.532 0 200 89.451 200 200 0 110.532-89.451 200-200 200-110.532 0-200-89.451-200-200 0-110.532 89.451-200 200-200m140.204 130.267l-22.536-22.718c-4.667-4.705-12.265-4.736-16.97-.068L215.346 303.697l-59.792-60.277c-4.667-4.705-12.265-4.736-16.97-.069l-22.719 22.536c-4.705 4.667-4.736 12.265-.068 16.971l90.781 91.516c4.667 4.705 12.265 4.736 16.97.068l172.589-171.204c4.704-4.668 4.734-12.266.067-16.971z">
+                                            </path>
+                                        </svg>
+                                    </span>
+                                    <span class="servicessecond__list--span">
+                                        Simple and Secure
+                                    </span>
+                                </li>
+                                <li class="servicessecond__list--item">
+                                    <span>
+                                        <svg widdth="14" height="14" aria-hidden="true" focusable="false"
+                                            data-prefix="far" data-icon="check-circle" role="img"
+                                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg="">
+                                            <path fill="#0061F2"
+                                                d="M256 8C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm0 48c110.532 0 200 89.451 200 200 0 110.532-89.451 200-200 200-110.532 0-200-89.451-200-200 0-110.532 89.451-200 200-200m140.204 130.267l-22.536-22.718c-4.667-4.705-12.265-4.736-16.97-.068L215.346 303.697l-59.792-60.277c-4.667-4.705-12.265-4.736-16.97-.069l-22.719 22.536c-4.705 4.667-4.736 12.265-.068 16.971l90.781 91.516c4.667 4.705 12.265 4.736 16.97.068l172.589-171.204c4.704-4.668 4.734-12.266.067-16.971z">
+                                            </path>
+                                        </svg>
+                                    </span>
+                                    <span class="servicessecond__list--span">
+                                        Multiple login allowed
+                                    </span>
+                                </li>
+                                <li class="servicessecond__list--item">
+                                    <span>
+                                        <svg class="svg-inline--fa fa-check-circle fa-w-16 text-primary" widdth="14"
+                                            height="14" aria-hidden="true" focusable="false" data-prefix="far"
+                                            data-icon="check-circle" role="img" xmlns="http://www.w3.org/2000/svg"
+                                            viewBox="0 0 512 512" data-fa-i2svg="">
+                                            <path fill="#0061F2"
+                                                d="M256 8C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm0 48c110.532 0 200 89.451 200 200 0 110.532-89.451 200-200 200-110.532 0-200-89.451-200-200 0-110.532 89.451-200 200-200m140.204 130.267l-22.536-22.718c-4.667-4.705-12.265-4.736-16.97-.068L215.346 303.697l-59.792-60.277c-4.667-4.705-12.265-4.736-16.97-.069l-22.719 22.536c-4.705 4.667-4.736 12.265-.068 16.971l90.781 91.516c4.667 4.705 12.265 4.736 16.97.068l172.589-171.204c4.704-4.668 4.734-12.266.067-16.971z">
+                                            </path>
+                                        </svg>
+                                    </span>
+                                    <span class="servicessecond__list--span">
+                                        Protocol TCP/UDP
+                                    </span>
+                                </li>
+                                <li class="servicessecond__list--item">
+                                    <span>
+                                        <svg class="svg-inline--fa fa-check-circle fa-w-16 text-primary" widdth="14"
+                                            height="14" aria-hidden="true" focusable="false" data-prefix="far"
+                                            data-icon="check-circle" role="img" xmlns="http://www.w3.org/2000/svg"
+                                            viewBox="0 0 512 512" data-fa-i2svg="">
+                                            <path fill="#0061F2"
+                                                d="M256 8C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm0 48c110.532 0 200 89.451 200 200 0 110.532-89.451 200-200 200-110.532 0-200-89.451-200-200 0-110.532 89.451-200 200-200m140.204 130.267l-22.536-22.718c-4.667-4.705-12.265-4.736-16.97-.068L215.346 303.697l-59.792-60.277c-4.667-4.705-12.265-4.736-16.97-.069l-22.719 22.536c-4.705 4.667-4.736 12.265-.068 16.971l90.781 91.516c4.667 4.705 12.265 4.736 16.97.068l172.589-171.204c4.704-4.668 4.734-12.266.067-16.971z">
+                                            </path>
+                                        </svg>
+                                    </span>
+                                    <span class="servicessecond__list--span">
+                                        SSL/TLS support
+                                    </span>
+                                </li>
+                            </ul>
+                            <div class="servicessecond__wrapper--second">
+                                <div class="servicessecond__wrapper--servers">
+                                    <b>
+                                        19 servers
+                                    </b>
+                                </div>
+                                <div class="servicessecond__wrapper--next">
+                                    NEXT
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+
+                <!-- 8 -->
+
+                <li class="servicessecond__list--wrapper">
+                    <a href="">
+                        <div class="">
+                            <div class="servicessecond__wrapper--first">
+                                <img class="servicessecond__img"
+                                    src="https://sshocean.com/assets/sbadmin/img/icon-xray.svg" width="50" height="50">
+                                <h3 class="servicessecond__caption">SSH 3 Days</h3>
+                            </div>
+                            <ul class="servicessecond__wrapper--list">
+                                <li class="servicessecond__list--item">
+                                    <span>
+                                        <svg widdth="14" height="14" aria-hidden="true" focusable="false"
+                                            data-prefix="far" data-icon="check-circle" role="img"
+                                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg="">
+                                            <path fill="#0061F2"
+                                                d="M256 8C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm0 48c110.532 0 200 89.451 200 200 0 110.532-89.451 200-200 200-110.532 0-200-89.451-200-200 0-110.532 89.451-200 200-200m140.204 130.267l-22.536-22.718c-4.667-4.705-12.265-4.736-16.97-.068L215.346 303.697l-59.792-60.277c-4.667-4.705-12.265-4.736-16.97-.069l-22.719 22.536c-4.705 4.667-4.736 12.265-.068 16.971l90.781 91.516c4.667 4.705 12.265 4.736 16.97.068l172.589-171.204c4.704-4.668 4.734-12.266.067-16.971z">
+                                            </path>
+                                        </svg>
+                                    </span>
+                                    <span class="servicessecond__list--span">
+                                        Simple and Secure
+                                    </span>
+                                </li>
+                                <li class="servicessecond__list--item">
+                                    <span>
+                                        <svg widdth="14" height="14" aria-hidden="true" focusable="false"
+                                            data-prefix="far" data-icon="check-circle" role="img"
+                                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg="">
+                                            <path fill="#0061F2"
+                                                d="M256 8C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm0 48c110.532 0 200 89.451 200 200 0 110.532-89.451 200-200 200-110.532 0-200-89.451-200-200 0-110.532 89.451-200 200-200m140.204 130.267l-22.536-22.718c-4.667-4.705-12.265-4.736-16.97-.068L215.346 303.697l-59.792-60.277c-4.667-4.705-12.265-4.736-16.97-.069l-22.719 22.536c-4.705 4.667-4.736 12.265-.068 16.971l90.781 91.516c4.667 4.705 12.265 4.736 16.97.068l172.589-171.204c4.704-4.668 4.734-12.266.067-16.971z">
+                                            </path>
+                                        </svg>
+                                    </span>
+                                    <span class="servicessecond__list--span">
+                                        Multiple login allowed
+                                    </span>
+                                </li>
+                                <li class="servicessecond__list--item">
+                                    <span>
+                                        <svg class="svg-inline--fa fa-check-circle fa-w-16 text-primary" widdth="14"
+                                            height="14" aria-hidden="true" focusable="false" data-prefix="far"
+                                            data-icon="check-circle" role="img" xmlns="http://www.w3.org/2000/svg"
+                                            viewBox="0 0 512 512" data-fa-i2svg="">
+                                            <path fill="#0061F2"
+                                                d="M256 8C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm0 48c110.532 0 200 89.451 200 200 0 110.532-89.451 200-200 200-110.532 0-200-89.451-200-200 0-110.532 89.451-200 200-200m140.204 130.267l-22.536-22.718c-4.667-4.705-12.265-4.736-16.97-.068L215.346 303.697l-59.792-60.277c-4.667-4.705-12.265-4.736-16.97-.069l-22.719 22.536c-4.705 4.667-4.736 12.265-.068 16.971l90.781 91.516c4.667 4.705 12.265 4.736 16.97.068l172.589-171.204c4.704-4.668 4.734-12.266.067-16.971z">
+                                            </path>
+                                        </svg>
+                                    </span>
+                                    <span class="servicessecond__list--span">
+                                        Protocol TCP/UDP
+                                    </span>
+                                </li>
+                                <li class="servicessecond__list--item">
+                                    <span>
+                                        <svg class="svg-inline--fa fa-check-circle fa-w-16 text-primary" widdth="14"
+                                            height="14" aria-hidden="true" focusable="false" data-prefix="far"
+                                            data-icon="check-circle" role="img" xmlns="http://www.w3.org/2000/svg"
+                                            viewBox="0 0 512 512" data-fa-i2svg="">
+                                            <path fill="#0061F2"
+                                                d="M256 8C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm0 48c110.532 0 200 89.451 200 200 0 110.532-89.451 200-200 200-110.532 0-200-89.451-200-200 0-110.532 89.451-200 200-200m140.204 130.267l-22.536-22.718c-4.667-4.705-12.265-4.736-16.97-.068L215.346 303.697l-59.792-60.277c-4.667-4.705-12.265-4.736-16.97-.069l-22.719 22.536c-4.705 4.667-4.736 12.265-.068 16.971l90.781 91.516c4.667 4.705 12.265 4.736 16.97.068l172.589-171.204c4.704-4.668 4.734-12.266.067-16.971z">
+                                            </path>
+                                        </svg>
+                                    </span>
+                                    <span class="servicessecond__list--span">
+                                        SSL/TLS support
+                                    </span>
+                                </li>
+                            </ul>
+                            <div class="servicessecond__wrapper--second">
+                                <div class="servicessecond__wrapper--servers">
+                                    <b>
+                                        19 servers
+                                    </b>
+                                </div>
+                                <div class="servicessecond__wrapper--next">
+                                    NEXT
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+
+                <!-- 9 -->
+
+                <li class="servicessecond__list--wrapper">
+                    <a href="">
+                        <div class="">
+                            <div class="servicessecond__wrapper--first">
+                                <img class="servicessecond__img"
+                                    src="https://sshocean.com/assets/sbadmin/img/icon-xray.svg" width="50" height="50">
+                                <h3 class="servicessecond__caption">SSH 3 Days</h3>
+                            </div>
+                            <ul class="servicessecond__wrapper--list">
+                                <li class="servicessecond__list--item">
+                                    <span>
+                                        <svg widdth="14" height="14" aria-hidden="true" focusable="false"
+                                            data-prefix="far" data-icon="check-circle" role="img"
+                                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg="">
+                                            <path fill="#0061F2"
+                                                d="M256 8C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm0 48c110.532 0 200 89.451 200 200 0 110.532-89.451 200-200 200-110.532 0-200-89.451-200-200 0-110.532 89.451-200 200-200m140.204 130.267l-22.536-22.718c-4.667-4.705-12.265-4.736-16.97-.068L215.346 303.697l-59.792-60.277c-4.667-4.705-12.265-4.736-16.97-.069l-22.719 22.536c-4.705 4.667-4.736 12.265-.068 16.971l90.781 91.516c4.667 4.705 12.265 4.736 16.97.068l172.589-171.204c4.704-4.668 4.734-12.266.067-16.971z">
+                                            </path>
+                                        </svg>
+                                    </span>
+                                    <span class="servicessecond__list--span">
+                                        Simple and Secure
+                                    </span>
+                                </li>
+                                <li class="servicessecond__list--item">
+                                    <span>
+                                        <svg widdth="14" height="14" aria-hidden="true" focusable="false"
+                                            data-prefix="far" data-icon="check-circle" role="img"
+                                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg="">
+                                            <path fill="#0061F2"
+                                                d="M256 8C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm0 48c110.532 0 200 89.451 200 200 0 110.532-89.451 200-200 200-110.532 0-200-89.451-200-200 0-110.532 89.451-200 200-200m140.204 130.267l-22.536-22.718c-4.667-4.705-12.265-4.736-16.97-.068L215.346 303.697l-59.792-60.277c-4.667-4.705-12.265-4.736-16.97-.069l-22.719 22.536c-4.705 4.667-4.736 12.265-.068 16.971l90.781 91.516c4.667 4.705 12.265 4.736 16.97.068l172.589-171.204c4.704-4.668 4.734-12.266.067-16.971z">
+                                            </path>
+                                        </svg>
+                                    </span>
+                                    <span class="servicessecond__list--span">
+                                        Multiple login allowed
+                                    </span>
+                                </li>
+                                <li class="servicessecond__list--item">
+                                    <span>
+                                        <svg class="svg-inline--fa fa-check-circle fa-w-16 text-primary" widdth="14"
+                                            height="14" aria-hidden="true" focusable="false" data-prefix="far"
+                                            data-icon="check-circle" role="img" xmlns="http://www.w3.org/2000/svg"
+                                            viewBox="0 0 512 512" data-fa-i2svg="">
+                                            <path fill="#0061F2"
+                                                d="M256 8C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm0 48c110.532 0 200 89.451 200 200 0 110.532-89.451 200-200 200-110.532 0-200-89.451-200-200 0-110.532 89.451-200 200-200m140.204 130.267l-22.536-22.718c-4.667-4.705-12.265-4.736-16.97-.068L215.346 303.697l-59.792-60.277c-4.667-4.705-12.265-4.736-16.97-.069l-22.719 22.536c-4.705 4.667-4.736 12.265-.068 16.971l90.781 91.516c4.667 4.705 12.265 4.736 16.97.068l172.589-171.204c4.704-4.668 4.734-12.266.067-16.971z">
+                                            </path>
+                                        </svg>
+                                    </span>
+                                    <span class="servicessecond__list--span">
+                                        Protocol TCP/UDP
+                                    </span>
+                                </li>
+                                <li class="servicessecond__list--item">
+                                    <span>
+                                        <svg class="svg-inline--fa fa-check-circle fa-w-16 text-primary" widdth="14"
+                                            height="14" aria-hidden="true" focusable="false" data-prefix="far"
+                                            data-icon="check-circle" role="img" xmlns="http://www.w3.org/2000/svg"
+                                            viewBox="0 0 512 512" data-fa-i2svg="">
+                                            <path fill="#0061F2"
+                                                d="M256 8C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm0 48c110.532 0 200 89.451 200 200 0 110.532-89.451 200-200 200-110.532 0-200-89.451-200-200 0-110.532 89.451-200 200-200m140.204 130.267l-22.536-22.718c-4.667-4.705-12.265-4.736-16.97-.068L215.346 303.697l-59.792-60.277c-4.667-4.705-12.265-4.736-16.97-.069l-22.719 22.536c-4.705 4.667-4.736 12.265-.068 16.971l90.781 91.516c4.667 4.705 12.265 4.736 16.97.068l172.589-171.204c4.704-4.668 4.734-12.266.067-16.971z">
+                                            </path>
+                                        </svg>
+                                    </span>
+                                    <span class="servicessecond__list--span">
+                                        SSL/TLS support
+                                    </span>
+                                </li>
+                            </ul>
+                            <div class="servicessecond__wrapper--second">
+                                <div class="servicessecond__wrapper--servers">
+                                    <b>
+                                        19 servers
+                                    </b>
+                                </div>
+                                <div class="servicessecond__wrapper--next">
+                                    NEXT
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+
+                <!-- 10 -->
+
+                <li class="servicessecond__list--wrapper">
+                    <a href="">
+                        <div class="">
+                            <div class="servicessecond__wrapper--first">
+                                <img class="servicessecond__img"
+                                    src="https://sshocean.com/assets/sbadmin/img/icon-v2ray.svg" width="50" height="50">
+                                <h3 class="servicessecond__caption">SSH 3 Days</h3>
+                            </div>
+                            <ul class="servicessecond__wrapper--list">
+                                <li class="servicessecond__list--item">
+                                    <span>
+                                        <svg widdth="14" height="14" aria-hidden="true" focusable="false"
+                                            data-prefix="far" data-icon="check-circle" role="img"
+                                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg="">
+                                            <path fill="#0061F2"
+                                                d="M256 8C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm0 48c110.532 0 200 89.451 200 200 0 110.532-89.451 200-200 200-110.532 0-200-89.451-200-200 0-110.532 89.451-200 200-200m140.204 130.267l-22.536-22.718c-4.667-4.705-12.265-4.736-16.97-.068L215.346 303.697l-59.792-60.277c-4.667-4.705-12.265-4.736-16.97-.069l-22.719 22.536c-4.705 4.667-4.736 12.265-.068 16.971l90.781 91.516c4.667 4.705 12.265 4.736 16.97.068l172.589-171.204c4.704-4.668 4.734-12.266.067-16.971z">
+                                            </path>
+                                        </svg>
+                                    </span>
+                                    <span class="servicessecond__list--span">
+                                        Simple and Secure
+                                    </span>
+                                </li>
+                                <li class="servicessecond__list--item">
+                                    <span>
+                                        <svg widdth="14" height="14" aria-hidden="true" focusable="false"
+                                            data-prefix="far" data-icon="check-circle" role="img"
+                                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg="">
+                                            <path fill="#0061F2"
+                                                d="M256 8C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm0 48c110.532 0 200 89.451 200 200 0 110.532-89.451 200-200 200-110.532 0-200-89.451-200-200 0-110.532 89.451-200 200-200m140.204 130.267l-22.536-22.718c-4.667-4.705-12.265-4.736-16.97-.068L215.346 303.697l-59.792-60.277c-4.667-4.705-12.265-4.736-16.97-.069l-22.719 22.536c-4.705 4.667-4.736 12.265-.068 16.971l90.781 91.516c4.667 4.705 12.265 4.736 16.97.068l172.589-171.204c4.704-4.668 4.734-12.266.067-16.971z">
+                                            </path>
+                                        </svg>
+                                    </span>
+                                    <span class="servicessecond__list--span">
+                                        Multiple login allowed
+                                    </span>
+                                </li>
+                                <li class="servicessecond__list--item">
+                                    <span>
+                                        <svg class="svg-inline--fa fa-check-circle fa-w-16 text-primary" widdth="14"
+                                            height="14" aria-hidden="true" focusable="false" data-prefix="far"
+                                            data-icon="check-circle" role="img" xmlns="http://www.w3.org/2000/svg"
+                                            viewBox="0 0 512 512" data-fa-i2svg="">
+                                            <path fill="#0061F2"
+                                                d="M256 8C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm0 48c110.532 0 200 89.451 200 200 0 110.532-89.451 200-200 200-110.532 0-200-89.451-200-200 0-110.532 89.451-200 200-200m140.204 130.267l-22.536-22.718c-4.667-4.705-12.265-4.736-16.97-.068L215.346 303.697l-59.792-60.277c-4.667-4.705-12.265-4.736-16.97-.069l-22.719 22.536c-4.705 4.667-4.736 12.265-.068 16.971l90.781 91.516c4.667 4.705 12.265 4.736 16.97.068l172.589-171.204c4.704-4.668 4.734-12.266.067-16.971z">
+                                            </path>
+                                        </svg>
+                                    </span>
+                                    <span class="servicessecond__list--span">
+                                        Protocol TCP/UDP
+                                    </span>
+                                </li>
+                                <li class="servicessecond__list--item">
+                                    <span>
+                                        <svg class="svg-inline--fa fa-check-circle fa-w-16 text-primary" widdth="14"
+                                            height="14" aria-hidden="true" focusable="false" data-prefix="far"
+                                            data-icon="check-circle" role="img" xmlns="http://www.w3.org/2000/svg"
+                                            viewBox="0 0 512 512" data-fa-i2svg="">
+                                            <path fill="#0061F2"
+                                                d="M256 8C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm0 48c110.532 0 200 89.451 200 200 0 110.532-89.451 200-200 200-110.532 0-200-89.451-200-200 0-110.532 89.451-200 200-200m140.204 130.267l-22.536-22.718c-4.667-4.705-12.265-4.736-16.97-.068L215.346 303.697l-59.792-60.277c-4.667-4.705-12.265-4.736-16.97-.069l-22.719 22.536c-4.705 4.667-4.736 12.265-.068 16.971l90.781 91.516c4.667 4.705 12.265 4.736 16.97.068l172.589-171.204c4.704-4.668 4.734-12.266.067-16.971z">
+                                            </path>
+                                        </svg>
+                                    </span>
+                                    <span class="servicessecond__list--span">
+                                        SSL/TLS support
+                                    </span>
+                                </li>
+                            </ul>
+                            <div class="servicessecond__wrapper--second">
+                                <div class="servicessecond__wrapper--servers">
+                                    <b>
+                                        19 servers
+                                    </b>
+                                </div>
+                                <div class="servicessecond__wrapper--next">
+                                    NEXT
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+
+                <!-- 11 -->
+
+                <li class="servicessecond__list--wrapper">
+                    <a href="">
+                        <div class="">
+                            <div class="servicessecond__wrapper--first">
+                                <img class="servicessecond__img"
+                                    src="https://sshocean.com/assets/sbadmin/img/icon-v2ray.svg" width="50" height="50">
+                                <h3 class="servicessecond__caption">SSH 3 Days</h3>
+                            </div>
+                            <ul class="servicessecond__wrapper--list">
+                                <li class="servicessecond__list--item">
+                                    <span>
+                                        <svg widdth="14" height="14" aria-hidden="true" focusable="false"
+                                            data-prefix="far" data-icon="check-circle" role="img"
+                                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg="">
+                                            <path fill="#0061F2"
+                                                d="M256 8C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm0 48c110.532 0 200 89.451 200 200 0 110.532-89.451 200-200 200-110.532 0-200-89.451-200-200 0-110.532 89.451-200 200-200m140.204 130.267l-22.536-22.718c-4.667-4.705-12.265-4.736-16.97-.068L215.346 303.697l-59.792-60.277c-4.667-4.705-12.265-4.736-16.97-.069l-22.719 22.536c-4.705 4.667-4.736 12.265-.068 16.971l90.781 91.516c4.667 4.705 12.265 4.736 16.97.068l172.589-171.204c4.704-4.668 4.734-12.266.067-16.971z">
+                                            </path>
+                                        </svg>
+                                    </span>
+                                    <span class="servicessecond__list--span">
+                                        Simple and Secure
+                                    </span>
+                                </li>
+                                <li class="servicessecond__list--item">
+                                    <span>
+                                        <svg widdth="14" height="14" aria-hidden="true" focusable="false"
+                                            data-prefix="far" data-icon="check-circle" role="img"
+                                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg="">
+                                            <path fill="#0061F2"
+                                                d="M256 8C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm0 48c110.532 0 200 89.451 200 200 0 110.532-89.451 200-200 200-110.532 0-200-89.451-200-200 0-110.532 89.451-200 200-200m140.204 130.267l-22.536-22.718c-4.667-4.705-12.265-4.736-16.97-.068L215.346 303.697l-59.792-60.277c-4.667-4.705-12.265-4.736-16.97-.069l-22.719 22.536c-4.705 4.667-4.736 12.265-.068 16.971l90.781 91.516c4.667 4.705 12.265 4.736 16.97.068l172.589-171.204c4.704-4.668 4.734-12.266.067-16.971z">
+                                            </path>
+                                        </svg>
+                                    </span>
+                                    <span class="servicessecond__list--span">
+                                        Multiple login allowed
+                                    </span>
+                                </li>
+                                <li class="servicessecond__list--item">
+                                    <span>
+                                        <svg class="svg-inline--fa fa-check-circle fa-w-16 text-primary" widdth="14"
+                                            height="14" aria-hidden="true" focusable="false" data-prefix="far"
+                                            data-icon="check-circle" role="img" xmlns="http://www.w3.org/2000/svg"
+                                            viewBox="0 0 512 512" data-fa-i2svg="">
+                                            <path fill="#0061F2"
+                                                d="M256 8C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm0 48c110.532 0 200 89.451 200 200 0 110.532-89.451 200-200 200-110.532 0-200-89.451-200-200 0-110.532 89.451-200 200-200m140.204 130.267l-22.536-22.718c-4.667-4.705-12.265-4.736-16.97-.068L215.346 303.697l-59.792-60.277c-4.667-4.705-12.265-4.736-16.97-.069l-22.719 22.536c-4.705 4.667-4.736 12.265-.068 16.971l90.781 91.516c4.667 4.705 12.265 4.736 16.97.068l172.589-171.204c4.704-4.668 4.734-12.266.067-16.971z">
+                                            </path>
+                                        </svg>
+                                    </span>
+                                    <span class="servicessecond__list--span">
+                                        Protocol TCP/UDP
+                                    </span>
+                                </li>
+                                <li class="servicessecond__list--item">
+                                    <span>
+                                        <svg class="svg-inline--fa fa-check-circle fa-w-16 text-primary" widdth="14"
+                                            height="14" aria-hidden="true" focusable="false" data-prefix="far"
+                                            data-icon="check-circle" role="img" xmlns="http://www.w3.org/2000/svg"
+                                            viewBox="0 0 512 512" data-fa-i2svg="">
+                                            <path fill="#0061F2"
+                                                d="M256 8C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm0 48c110.532 0 200 89.451 200 200 0 110.532-89.451 200-200 200-110.532 0-200-89.451-200-200 0-110.532 89.451-200 200-200m140.204 130.267l-22.536-22.718c-4.667-4.705-12.265-4.736-16.97-.068L215.346 303.697l-59.792-60.277c-4.667-4.705-12.265-4.736-16.97-.069l-22.719 22.536c-4.705 4.667-4.736 12.265-.068 16.971l90.781 91.516c4.667 4.705 12.265 4.736 16.97.068l172.589-171.204c4.704-4.668 4.734-12.266.067-16.971z">
+                                            </path>
+                                        </svg>
+                                    </span>
+                                    <span class="servicessecond__list--span">
+                                        SSL/TLS support
+                                    </span>
+                                </li>
+                            </ul>
+                            <div class="servicessecond__wrapper--second">
+                                <div class="servicessecond__wrapper--servers">
+                                    <b>
+                                        19 servers
+                                    </b>
+                                </div>
+                                <div class="servicessecond__wrapper--next">
+                                    NEXT
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Need More? -->
+
+    <section class="need">
+        <div class="container">
+            <h2 class="need__сaption">Need More?</h2>
+            <p class="need__paragraph">Create SSH account with special provider</p>
+            <ul class="need__list">
+
+                <!-- 1 -->
+
+                <li class="need__list--wrapper">
+                    <a href="">
+                        <div class="">
+                            <div class="need__wrapper--first">
+                                <img class="need__img" src="https://sshocean.com/assets/sbadmin/img/icon-ssh.svg"
+                                    width="50" height="50">
+                                <h3 class="servicessecond__caption">SSH 3 Days</h3>
+                            </div>
+                            <ul class="need__wrapper--list">
+                                <li class="need__list--item">
+                                    <span>
+                                        <svg widdth="14" height="14" aria-hidden="true" focusable="false"
+                                            data-prefix="far" data-icon="check-circle" role="img"
+                                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg="">
+                                            <path fill="#0061F2"
+                                                d="M256 8C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm0 48c110.532 0 200 89.451 200 200 0 110.532-89.451 200-200 200-110.532 0-200-89.451-200-200 0-110.532 89.451-200 200-200m140.204 130.267l-22.536-22.718c-4.667-4.705-12.265-4.736-16.97-.068L215.346 303.697l-59.792-60.277c-4.667-4.705-12.265-4.736-16.97-.069l-22.719 22.536c-4.705 4.667-4.736 12.265-.068 16.971l90.781 91.516c4.667 4.705 12.265 4.736 16.97.068l172.589-171.204c4.704-4.668 4.734-12.266.067-16.971z">
+                                            </path>
+                                        </svg>
+                                    </span>
+                                    <span class="need__list--span">
+                                        Simple and Secure
+                                    </span>
+                                </li>
+                                <li class="need__list--item">
+                                    <span>
+                                        <svg widdth="14" height="14" aria-hidden="true" focusable="false"
+                                            data-prefix="far" data-icon="check-circle" role="img"
+                                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg="">
+                                            <path fill="#0061F2"
+                                                d="M256 8C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm0 48c110.532 0 200 89.451 200 200 0 110.532-89.451 200-200 200-110.532 0-200-89.451-200-200 0-110.532 89.451-200 200-200m140.204 130.267l-22.536-22.718c-4.667-4.705-12.265-4.736-16.97-.068L215.346 303.697l-59.792-60.277c-4.667-4.705-12.265-4.736-16.97-.069l-22.719 22.536c-4.705 4.667-4.736 12.265-.068 16.971l90.781 91.516c4.667 4.705 12.265 4.736 16.97.068l172.589-171.204c4.704-4.668 4.734-12.266.067-16.971z">
+                                            </path>
+                                        </svg>
+                                    </span>
+                                    <span class="need__list--span">
+                                        Multiple login allowed
+                                    </span>
+                                </li>
+                                <li class="need__list--item">
+                                    <span>
+                                        <svg class="svg-inline--fa fa-check-circle fa-w-16 text-primary" widdth="14"
+                                            height="14" aria-hidden="true" focusable="false" data-prefix="far"
+                                            data-icon="check-circle" role="img" xmlns="http://www.w3.org/2000/svg"
+                                            viewBox="0 0 512 512" data-fa-i2svg="">
+                                            <path fill="#0061F2"
+                                                d="M256 8C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm0 48c110.532 0 200 89.451 200 200 0 110.532-89.451 200-200 200-110.532 0-200-89.451-200-200 0-110.532 89.451-200 200-200m140.204 130.267l-22.536-22.718c-4.667-4.705-12.265-4.736-16.97-.068L215.346 303.697l-59.792-60.277c-4.667-4.705-12.265-4.736-16.97-.069l-22.719 22.536c-4.705 4.667-4.736 12.265-.068 16.971l90.781 91.516c4.667 4.705 12.265 4.736 16.97.068l172.589-171.204c4.704-4.668 4.734-12.266.067-16.971z">
+                                            </path>
+                                        </svg>
+                                    </span>
+                                    <span class="need__list--span">
+                                        Protocol TCP/UDP
+                                    </span>
+                                </li>
+                                <li class="need__list--item">
+                                    <span>
+                                        <svg class="svg-inline--fa fa-check-circle fa-w-16 text-primary" widdth="14"
+                                            height="14" aria-hidden="true" focusable="false" data-prefix="far"
+                                            data-icon="check-circle" role="img" xmlns="http://www.w3.org/2000/svg"
+                                            viewBox="0 0 512 512" data-fa-i2svg="">
+                                            <path fill="#0061F2"
+                                                d="M256 8C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm0 48c110.532 0 200 89.451 200 200 0 110.532-89.451 200-200 200-110.532 0-200-89.451-200-200 0-110.532 89.451-200 200-200m140.204 130.267l-22.536-22.718c-4.667-4.705-12.265-4.736-16.97-.068L215.346 303.697l-59.792-60.277c-4.667-4.705-12.265-4.736-16.97-.069l-22.719 22.536c-4.705 4.667-4.736 12.265-.068 16.971l90.781 91.516c4.667 4.705 12.265 4.736 16.97.068l172.589-171.204c4.704-4.668 4.734-12.266.067-16.971z">
+                                            </path>
+                                        </svg>
+                                    </span>
+                                    <span class="need__list--span">
+                                        SSL/TLS support
+                                    </span>
+                                </li>
+                            </ul>
+                            <div class="need__wrapper--second">
+                                <div class="need__wrapper--servers">
+                                    <b>
+                                        19 servers
+                                    </b>
+                                </div>
+                                <div class="need__wrapper--next">
+                                    NEXT
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+
+                <!-- 2 -->
+
+                <li class="need__list--wrapper">
+                    <a href="">
+                        <div class="">
+                            <div class="need__wrapper--first">
+                                <img class="need__img" src="https://sshocean.com/assets/sbadmin/img/icon-ssh.svg"
+                                    width="50" height="50">
+                                <h3 class="servicessecond__caption">SSH 30 Days</h3>
+                            </div>
+                            <ul class="need__wrapper--list">
+                                <li class="need__list--item">
+                                    <span>
+                                        <svg widdth="14" height="14" aria-hidden="true" focusable="false"
+                                            data-prefix="far" data-icon="check-circle" role="img"
+                                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg="">
+                                            <path fill="#0061F2"
+                                                d="M256 8C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm0 48c110.532 0 200 89.451 200 200 0 110.532-89.451 200-200 200-110.532 0-200-89.451-200-200 0-110.532 89.451-200 200-200m140.204 130.267l-22.536-22.718c-4.667-4.705-12.265-4.736-16.97-.068L215.346 303.697l-59.792-60.277c-4.667-4.705-12.265-4.736-16.97-.069l-22.719 22.536c-4.705 4.667-4.736 12.265-.068 16.971l90.781 91.516c4.667 4.705 12.265 4.736 16.97.068l172.589-171.204c4.704-4.668 4.734-12.266.067-16.971z">
+                                            </path>
+                                        </svg>
+                                    </span>
+                                    <span class="need__list--span">
+                                        Simple and Secure
+                                    </span>
+                                </li>
+                                <li class="need__list--item">
+                                    <span>
+                                        <svg widdth="14" height="14" aria-hidden="true" focusable="false"
+                                            data-prefix="far" data-icon="check-circle" role="img"
+                                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg="">
+                                            <path fill="#0061F2"
+                                                d="M256 8C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm0 48c110.532 0 200 89.451 200 200 0 110.532-89.451 200-200 200-110.532 0-200-89.451-200-200 0-110.532 89.451-200 200-200m140.204 130.267l-22.536-22.718c-4.667-4.705-12.265-4.736-16.97-.068L215.346 303.697l-59.792-60.277c-4.667-4.705-12.265-4.736-16.97-.069l-22.719 22.536c-4.705 4.667-4.736 12.265-.068 16.971l90.781 91.516c4.667 4.705 12.265 4.736 16.97.068l172.589-171.204c4.704-4.668 4.734-12.266.067-16.971z">
+                                            </path>
+                                        </svg>
+                                    </span>
+                                    <span class="need__list--span">
+                                        Multiple login allowed
+                                    </span>
+                                </li>
+                                <li class="need__list--item">
+                                    <span>
+                                        <svg class="svg-inline--fa fa-check-circle fa-w-16 text-primary" widdth="14"
+                                            height="14" aria-hidden="true" focusable="false" data-prefix="far"
+                                            data-icon="check-circle" role="img" xmlns="http://www.w3.org/2000/svg"
+                                            viewBox="0 0 512 512" data-fa-i2svg="">
+                                            <path fill="#0061F2"
+                                                d="M256 8C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm0 48c110.532 0 200 89.451 200 200 0 110.532-89.451 200-200 200-110.532 0-200-89.451-200-200 0-110.532 89.451-200 200-200m140.204 130.267l-22.536-22.718c-4.667-4.705-12.265-4.736-16.97-.068L215.346 303.697l-59.792-60.277c-4.667-4.705-12.265-4.736-16.97-.069l-22.719 22.536c-4.705 4.667-4.736 12.265-.068 16.971l90.781 91.516c4.667 4.705 12.265 4.736 16.97.068l172.589-171.204c4.704-4.668 4.734-12.266.067-16.971z">
+                                            </path>
+                                        </svg>
+                                    </span>
+                                    <span class="need__list--span">
+                                        Protocol TCP/UDP
+                                    </span>
+                                </li>
+                                <li class="need__list--item">
+                                    <span>
+                                        <svg class="svg-inline--fa fa-check-circle fa-w-16 text-primary" widdth="14"
+                                            height="14" aria-hidden="true" focusable="false" data-prefix="far"
+                                            data-icon="check-circle" role="img" xmlns="http://www.w3.org/2000/svg"
+                                            viewBox="0 0 512 512" data-fa-i2svg="">
+                                            <path fill="#0061F2"
+                                                d="M256 8C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm0 48c110.532 0 200 89.451 200 200 0 110.532-89.451 200-200 200-110.532 0-200-89.451-200-200 0-110.532 89.451-200 200-200m140.204 130.267l-22.536-22.718c-4.667-4.705-12.265-4.736-16.97-.068L215.346 303.697l-59.792-60.277c-4.667-4.705-12.265-4.736-16.97-.069l-22.719 22.536c-4.705 4.667-4.736 12.265-.068 16.971l90.781 91.516c4.667 4.705 12.265 4.736 16.97.068l172.589-171.204c4.704-4.668 4.734-12.266.067-16.971z">
+                                            </path>
+                                        </svg>
+                                    </span>
+                                    <span class="need__list--span">
+                                        SSL/TLS support
+                                    </span>
+                                </li>
+                            </ul>
+                            <div class="need__wrapper--second">
+                                <div class="need__wrapper--servers">
+                                    <b>
+                                        4 servers
+                                    </b>
+                                </div>
+                                <div class="need__wrapper--next">
+                                    NEXT
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+
+                <!-- 3 -->
+
+                <li class="need__list--wrapper">
+                    <a href="">
+                        <div class="">
+                            <div class="need__wrapper--first">
+                                <img class="need__img" src="https://sshocean.com/assets/sbadmin/img/icon-ssh.svg"
+                                    width="50" height="50">
+                                <h3 class="servicessecond__caption">SSH VIP SERVER</h3>
+                            </div>
+                            <ul class="need__wrapper--list">
+                                <li class="need__list--item">
+                                    <span>
+                                        <svg widdth="14" height="14" aria-hidden="true" focusable="false"
+                                            data-prefix="far" data-icon="check-circle" role="img"
+                                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg="">
+                                            <path fill="#0061F2"
+                                                d="M256 8C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm0 48c110.532 0 200 89.451 200 200 0 110.532-89.451 200-200 200-110.532 0-200-89.451-200-200 0-110.532 89.451-200 200-200m140.204 130.267l-22.536-22.718c-4.667-4.705-12.265-4.736-16.97-.068L215.346 303.697l-59.792-60.277c-4.667-4.705-12.265-4.736-16.97-.069l-22.719 22.536c-4.705 4.667-4.736 12.265-.068 16.971l90.781 91.516c4.667 4.705 12.265 4.736 16.97.068l172.589-171.204c4.704-4.668 4.734-12.266.067-16.971z">
+                                            </path>
+                                        </svg>
+                                    </span>
+                                    <span class="need__list--span">
+                                        Simple and Secure
+                                    </span>
+                                </li>
+                                <li class="need__list--item">
+                                    <span>
+                                        <svg widdth="14" height="14" aria-hidden="true" focusable="false"
+                                            data-prefix="far" data-icon="check-circle" role="img"
+                                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg="">
+                                            <path fill="#0061F2"
+                                                d="M256 8C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm0 48c110.532 0 200 89.451 200 200 0 110.532-89.451 200-200 200-110.532 0-200-89.451-200-200 0-110.532 89.451-200 200-200m140.204 130.267l-22.536-22.718c-4.667-4.705-12.265-4.736-16.97-.068L215.346 303.697l-59.792-60.277c-4.667-4.705-12.265-4.736-16.97-.069l-22.719 22.536c-4.705 4.667-4.736 12.265-.068 16.971l90.781 91.516c4.667 4.705 12.265 4.736 16.97.068l172.589-171.204c4.704-4.668 4.734-12.266.067-16.971z">
+                                            </path>
+                                        </svg>
+                                    </span>
+                                    <span class="need__list--span">
+                                        Multiple login allowed
+                                    </span>
+                                </li>
+                                <li class="need__list--item">
+                                    <span>
+                                        <svg class="svg-inline--fa fa-check-circle fa-w-16 text-primary" widdth="14"
+                                            height="14" aria-hidden="true" focusable="false" data-prefix="far"
+                                            data-icon="check-circle" role="img" xmlns="http://www.w3.org/2000/svg"
+                                            viewBox="0 0 512 512" data-fa-i2svg="">
+                                            <path fill="#0061F2"
+                                                d="M256 8C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm0 48c110.532 0 200 89.451 200 200 0 110.532-89.451 200-200 200-110.532 0-200-89.451-200-200 0-110.532 89.451-200 200-200m140.204 130.267l-22.536-22.718c-4.667-4.705-12.265-4.736-16.97-.068L215.346 303.697l-59.792-60.277c-4.667-4.705-12.265-4.736-16.97-.069l-22.719 22.536c-4.705 4.667-4.736 12.265-.068 16.971l90.781 91.516c4.667 4.705 12.265 4.736 16.97.068l172.589-171.204c4.704-4.668 4.734-12.266.067-16.971z">
+                                            </path>
+                                        </svg>
+                                    </span>
+                                    <span class="need__list--span">
+                                        Protocol TCP/UDP
+                                    </span>
+                                </li>
+                                <li class="need__list--item">
+                                    <span>
+                                        <svg class="svg-inline--fa fa-check-circle fa-w-16 text-primary" widdth="14"
+                                            height="14" aria-hidden="true" focusable="false" data-prefix="far"
+                                            data-icon="check-circle" role="img" xmlns="http://www.w3.org/2000/svg"
+                                            viewBox="0 0 512 512" data-fa-i2svg="">
+                                            <path fill="#0061F2"
+                                                d="M256 8C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm0 48c110.532 0 200 89.451 200 200 0 110.532-89.451 200-200 200-110.532 0-200-89.451-200-200 0-110.532 89.451-200 200-200m140.204 130.267l-22.536-22.718c-4.667-4.705-12.265-4.736-16.97-.068L215.346 303.697l-59.792-60.277c-4.667-4.705-12.265-4.736-16.97-.069l-22.719 22.536c-4.705 4.667-4.736 12.265-.068 16.971l90.781 91.516c4.667 4.705 12.265 4.736 16.97.068l172.589-171.204c4.704-4.668 4.734-12.266.067-16.971z">
+                                            </path>
+                                        </svg>
+                                    </span>
+                                    <span class="need__list--span">
+                                        SSL/TLS support
+                                    </span>
+                                </li>
+                            </ul>
+                            <div class="need__wrapper--second">
+                                <div class="need__wrapper--servers">
+                                    <b>
+                                        3 servers
+                                    </b>
+                                </div>
+                                <div class="need__wrapper--next">
+                                    NEXT
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- information about our services (first)-->
+
+    <section class="informationfirst">
+        <div class="container">
+            <h2 class="visually-hidden">information about our services</h2>
+            <ul class="informationfirst__list">
+                <li class="informationfirst__list--item">
+                    <div class="informationfirst__list--svg">
+                        <svg width="18" hright="12" aria-hidden="true" focusable="false" data-prefix="fas"
+                            data-icon="hdd" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"
+                            data-fa-i2svg="">
+                            <path fill="#ffffff"
+                                d="M576 304v96c0 26.51-21.49 48-48 48H48c-26.51 0-48-21.49-48-48v-96c0-26.51 21.49-48 48-48h480c26.51 0 48 21.49 48 48zm-48-80a79.557 79.557 0 0 1 30.777 6.165L462.25 85.374A48.003 48.003 0 0 0 422.311 64H153.689a48 48 0 0 0-39.938 21.374L17.223 230.165A79.557 79.557 0 0 1 48 224h480zm-48 96c-17.673 0-32 14.327-32 32s14.327 32 32 32 32-14.327 32-32-14.327-32-32-32zm-96 0c-17.673 0-32 14.327-32 32s14.327 32 32 32 32-14.327 32-32-14.327-32-32-32z">
+                            </path>
+                        </svg>
+                    </div>
+                    <h3 class="informationfirst__list--capital">Powerful Server</h3>
+                    <p class="informationfirst__list--paragraph">Our server are perfect for tunneling access. Using the
+                        newest technology with the simplest performance, NVMe SSDs are 6x
+                        faster than regular SSDs and 30x faster than HDDs, and use Intel CPUs and AMD's latest
+                        generation.</p>
+                </li>
+                <li class="informationfirst__list--item">
+                    <div class="informationfirst__list--svg">
+                        <svg class="svg-inline--fa fa-lock fa-w-14" width="18" hright="12" aria-hidden="true"
+                            focusable="false" data-prefix="fas" data-icon="lock" role="img"
+                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg="">
+                            <path fill="#ffffff"
+                                d="M400 224h-24v-72C376 68.2 307.8 0 224 0S72 68.2 72 152v72H48c-26.5 0-48 21.5-48 48v192c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V272c0-26.5-21.5-48-48-48zm-104 0H152v-72c0-39.7 32.3-72 72-72s72 32.3 72 72v72z">
+                            </path>
+                        </svg>
+                    </div>
+                    <h3 class="informationfirst__list--capital">256-bit encryption</h3>
+                    <p class="informationfirst__list--paragraph">We using latest 256-bit encryption method for securely
+                        protects you from hacker / eye attacks that take your data
+                        without you knowing it. By employing a tunneling account from us, your data are going to be kept
+                        confidential.</p>
+
+                </li>
+                <li class="informationfirst__list--item">
+                    <div class="informationfirst__list--svg">
+                        <svg class="svg-inline--fa fa-users fa-w-20" width="18" hright="12" aria-hidden="true"
+                            focusable="false" data-prefix="fas" data-icon="users" role="img"
+                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512" data-fa-i2svg="">
+                            <path fill="#ffffff"
+                                d="M96 224c35.3 0 64-28.7 64-64s-28.7-64-64-64-64 28.7-64 64 28.7 64 64 64zm448 0c35.3 0 64-28.7 64-64s-28.7-64-64-64-64 28.7-64 64 28.7 64 64 64zm32 32h-64c-17.6 0-33.5 7.1-45.1 18.6 40.3 22.1 68.9 62 75.1 109.4h66c17.7 0 32-14.3 32-32v-32c0-35.3-28.7-64-64-64zm-256 0c61.9 0 112-50.1 112-112S381.9 32 320 32 208 82.1 208 144s50.1 112 112 112zm76.8 32h-8.3c-20.8 10-43.9 16-68.5 16s-47.6-6-68.5-16h-8.3C179.6 288 128 339.6 128 403.2V432c0 26.5 21.5 48 48 48h288c26.5 0 48-21.5 48-48v-28.8c0-63.6-51.6-115.2-115.2-115.2zm-223.7-13.4C161.5 263.1 145.6 256 128 256H64c-35.3 0-64 28.7-64 64v32c0 17.7 14.3 32 32 32h65.9c6.3-47.4 34.9-87.3 75.2-109.4z">
+                            </path>
+                        </svg>
+                    </div>
+                    <h3 class="informationfirst__list--capital">Multi Logins Support</h3>
+                    <p class="informationfirst__list--paragraph">Use 1 account for various devices ranging from PC, Mac,
+                        Android, IOS, Router et al. . 1 account can only be used for two
+                        devices connected at an equivalent time.</p>
+
+                </li>
+                <li class="informationfirst__list--item">
+                    <div class="informationfirst__list--svg">
+                        <svg class="svg-inline--fa fa-check-circle fa-w-16" width="18" hright="12" aria-hidden="true"
+                            focusable="false" data-prefix="fas" data-icon="check-circle" role="img"
+                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg="">
+                            <path fill="#ffffff"
+                                d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z">
+                            </path>
+                        </svg>
+                    </div>
+                    <h3 class="informationfirst__list--capital">No Limit Speed</h3>
+                    <p class="informationfirst__list--paragraph">Supported with premium network speed up to 1Gbps which
+                        provides comfort while browsing, streaming, downloading and
+                        playing online games. there's no regulation when employing a tunneling account from us.</p>
+
+                </li>
+                <li class="informationfirst__list--item">
+                    <div class="informationfirst__list--svg">
+                        <svg class="svg-inline--fa fa-chart-line fa-w-16" width="18" hright="12" aria-hidden="true"
+                            focusable="false" data-prefix="fas" data-icon="chart-line" role="img"
+                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg="">
+                            <path fill="#ffffff"
+                                d="M496 384H64V80c0-8.84-7.16-16-16-16H16C7.16 64 0 71.16 0 80v336c0 17.67 14.33 32 32 32h464c8.84 0 16-7.16 16-16v-32c0-8.84-7.16-16-16-16zM464 96H345.94c-21.38 0-32.09 25.85-16.97 40.97l32.4 32.4L288 242.75l-73.37-73.37c-12.5-12.5-32.76-12.5-45.25 0l-68.69 68.69c-6.25 6.25-6.25 16.38 0 22.63l22.62 22.62c6.25 6.25 16.38 6.25 22.63 0L192 237.25l73.37 73.37c12.5 12.5 32.76 12.5 45.25 0l96-96 32.4 32.4c15.12 15.12 40.97 4.41 40.97-16.97V112c.01-8.84-7.15-16-15.99-16z">
+                            </path>
+                        </svg>
+                    </div>
+                    <h3 class="informationfirst__list--capital">Unlimited Data Transfer</h3>
+                    <p class="informationfirst__list--paragraph">Get access to all or any of our servers without a quota
+                        limit and without a decrease in speed. you're liberal to
+                        download and stream anyting you would like within the internet without worrying of quota running
+                        out.</p>
+
+                </li>
+                <li class="informationfirst__list--item">
+                    <div class="informationfirst__list--svg">
+                        <svg class="svg-inline--fa fa-check-double fa-w-16" width="18" hright="12" aria-hidden="true"
+                            focusable="false" data-prefix="fas" data-icon="check-double" role="img"
+                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg="">
+                            <path fill="#ffffff"
+                                d="M505 174.8l-39.6-39.6c-9.4-9.4-24.6-9.4-33.9 0L192 374.7 80.6 263.2c-9.4-9.4-24.6-9.4-33.9 0L7 302.9c-9.4 9.4-9.4 24.6 0 34L175 505c9.4 9.4 24.6 9.4 33.9 0l296-296.2c9.4-9.5 9.4-24.7.1-34zm-324.3 106c6.2 6.3 16.4 6.3 22.6 0l208-208.2c6.2-6.3 6.2-16.4 0-22.6L366.1 4.7c-6.2-6.3-16.4-6.3-22.6 0L192 156.2l-55.4-55.5c-6.2-6.3-16.4-6.3-22.6 0L68.7 146c-6.2 6.3-6.2 16.4 0 22.6l112 112.2z">
+                            </path>
+                        </svg>
+                    </div>
+                    <h3 class="informationfirst__list--capital">Bypass Restrictions</h3>
+                    <p class="informationfirst__list--paragraph">Access all sites on the web with none block from your
+                        ISP. Get the liberty to surf by employing a tunneling account from
+                        us for free of charge .</p>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- information about our services (second)-->
+
+    <section class="informationsecond">
+        <div class="container">
+            <h2 class="visually-hidden">information about our services</h2>
+            <ul class="informationsecond__list">
+                <li class="informationsecond__list--item shadow">
+                    <a class="informationsecond__link" href="">
+                        <div class="informationsecond__list--wrapper">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" class="feather feather-shield">
+                                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                            </svg>
+                        </div>
+                        <h3 class="informationsecond__list--caption">Privacy & Security</h3>
+                        <p class="informationsecond__list--paragraph">Get your identity hidden online, your IP Address
+                            will be masked with our server IP. Also your connection will be
+                            encrypted.</p>
+                    </a>
+                </li>
+                <li class="informationsecond__list--item shadow">
+                    <a href="">
+                        <div class="informationsecond__list--wrapper-color">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" class="feather feather-zap">
+                                <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
+                            </svg>
+                        </div>
+                        <h3 class="informationsecond__list--caption--color">Boost Internet Speed</h3>
+                        <p class="informationsecond__list--paragraph">Our service may boost your internet speed and make
+                            your connection stable (stable PING) with. This differ by country.</p>
+                    </a>
+                </li>
+                <li class="informationsecond__list--item shadow">
+                    <a href="">
+                        <div class="informationsecond__list--wrapper-color">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" class="feather feather-unlock">
+                                <rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect>
+                                <path d="M7 11V7a5 5 0 0 1 9.9-1"></path>
+                            </svg>
+                        </div>
+                        <h3 class="informationsecond__list--caption">Bypass Cencorship</h3>
+                        <p class="informationsecond__list--paragraph">Bypass your school, government or your office
+                            internet cencorship. Unblock any site and enjoy Internet Freedom.</p>
+                    </a>
+                </li>
+                <li class="informationsecond__list--item shadow">
+                    <a href="">
+                        <div class="informationsecond__list--wrapper">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" class="feather feather-activity">
+                                <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline>
+                            </svg>
+                        </div>
+                        <h3 class="informationsecond__list--caption--color">Stable Server</h3>
+                        <p class="informationsecond__list--paragraph">Faster Connections, full speed SSH Account with
+                            with best quality server up to 10 Gbit connection</p>
+                    </a>
+                </li>
+            </ul>
+            <p class="informationsecond__paragraph"><b>sshocean.com</b> is provider Premium High Speed SSH, Stunnel (SSH
+                Over SSL/TLS), OpenVPN, Squid Proxy, Shadowsocks, Trojan
+                VPN, V2ray Vmess, V2ray Vless and WireGuard account with high quality server for our premium SSH
+                account, our server
+                using SSD thats must will get more best perform. We will so take your connection to private and make it
+                full speed SSH
+                connection with securely.</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+
+    <footer class="footer">
+        <div class="container footer__container">
+            <div class="footer__wrapper">
+                <div class="footer__wrapper--wrapper">
+                    <img src="https://sshocean.com/assets/images/sshocean2.svg" alt="SSHOcean" width="164" height="32">
+                </div>
+                <p class="footer__paragraph">Premium SSH and VPN Account</p>
+                <ul class="footer__list">
+                    <li class="footer__list--link">
+                        <a href="">
+                            <svg class="svg-inline--fa fa-instagram fa-w-14" width="18" height="20" aria-hidden="true"
+                                focusable="false" data-prefix="fab" data-icon="instagram" role="img"
+                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg="">
+                                <path fill="#687281"
+                                    d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z">
+                                </path>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="footer__list--link">
+                        <a href="">
+                            <svg class="svg-inline--fa fa-facebook fa-w-16" width="18" height="20" aria-hidden="true"
+                                focusable="false" data-prefix="fab" data-icon="facebook" role="img"
+                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg="">
+                                <path fill="#687281"
+                                    d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z">
+                                </path>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="footer__list--link">
+                        <a href="">
+                            <svg class="svg-inline--fa fa-github fa-w-16" width="18" height="20" aria-hidden="true"
+                                focusable="false" data-prefix="fab" data-icon="github" role="img"
+                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512" data-fa-i2svg="">
+                                <path fill="#687281"
+                                    d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z">
+                                </path>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="footer__list--link">
+                        <a href="">
+                            <svg class="svg-inline--fa fa-twitter fa-w-16" width="18" height="20" aria-hidden="true"
+                                focusable="false" data-prefix="fab" data-icon="twitter" role="img"
+                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg="">
+                                <path fill="#687281"
+                                    d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z">
+                                </path>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer__wrapper--statics">
+                <h3 class="footer__caption">STATISTICS</h3>
+                <ul class="footer__list--list">
+                    <li>Total Account Created:</li>
+                    <li>
+                        SSH: 2,692,747
+                        <sup>today <span class="footer__list--style" title="today">+2,476</span></sup>
+                    </li>
+                    <li>
+                        OpenVPN: 485,460
+                        <sup>today <span class="footer__list--style" title="today">+345</span></sup>
+                    </li>
+                    <li>
+                        ShadowSocks: 412,250
+                        <sup>today <span class="footer__list--style" title="today">+398</span></sup>
+                    </li>
+                    <li>
+                        Trojan: 33,885
+                        <sup>today <span class="footer__list--style" title="today">+290</span></sup>
+                    </li>
+                    <li>
+                        V2Ray: 871,702
+                        <sup>today <span class="footer__list--style" title="today">+1,175</span></sup>
+                    </li>
+                    <li>
+                        Xray: 3,041
+                        <sup>today <span class="footer__list--style" title="today">+57</span></sup>
+                    </li>
+                    <li>
+                        WireGuard: 417,452
+                        <sup>today <span class="footer__list--style" title="today">+140</span></sup>
+                    </li>
+                    <li>
+                        Your IP: 37.146.56.215
+                    </li>
+                </ul>
+            </div>
+            <div class="footer__wrapper--outlink">
+                <h3 class="footer__caption">OUT LINK</h3>
+                <ul class="footer__outlink--list">
+                    <li>
+                        <a class="footer__link--link" href="https://sshmax.net" target="_blank">sshmax.net</a>
+                    </li>
+                    <li>
+                        <a class="footer__link--link" href="https://greenssh.com" target="_blank">GreenSSH.com</a>
+                    </li>
+                    <li>
+                        <a class="footer__link--link" href="https://vpnhack.com" target="_blank">VPNHack.com</a>
+                    </li>
+                    <li>
+                        <a class="footer__link--link" href="https://akunssh.net" target="_blank">AkunSSH.net</a>
+                    </li>
+                    <li>
+                        <a class="footer__link--link" href="https://sshstores.net" target="_blank">SSHStores.net</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="container footer__wrapper--link">
+            <span class="footer__span--link">Copyright © 2022 sshocean.com</span>
+            <ul class="footer__wrapper--list">
+                <li>
+                    <a class="footer__link--link" href="https://sshocean.com/disclaimer">Disclaimer ·</a>
+                </li>
+                <li>
+                    <a class="footer__link--link" href="https://sshocean.com/terms-of-service">Terms Of Service ·</a>
+                </li>
+                <li>
+                    <a class="footer__link--link" href="https://sshocean.com/privacy-policy">Privacy Policy ·</a>
+                </li>
+                <li>
+                    <a class="footer__link--link" href="https://sshocean.com/ask-a-question">Ask a Question ·</a>
+                </li>
+                <li>
+                    <a class="footer__link--link" href="https://sshocean.com/report-server-down">Report Server Down
+                        ·</a>
+                </li>
+                <li>
+                    <a class="footer__link--link" href="https://sshocean.com/tester">Tester</a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+</body>
+
+</html>

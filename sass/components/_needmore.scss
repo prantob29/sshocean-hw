@@ -36,7 +36,6 @@
         margin: 0 1.5rem 3rem 1.5rem;
         border-radius: 5px;
         padding: 1rem;
-        border-top: 4px solid #0061f2;
     }
 
     &__wrapper--first {
@@ -91,5 +90,17 @@
         background-color: #0061f2;
         padding: 0.75rem;
         color: $first-white-color;
+    }
+}
+
+.color {
+    &-b {
+        border-top: 4px solid #0061f2;
+    }
+    &-g {
+        border-top: 4px solid #00ac69;
+    }
+    &-o {
+        border-top:4px solid #f4a100;
     }
 }

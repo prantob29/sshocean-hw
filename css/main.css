@@ -341,7 +341,6 @@ p {
   margin: 0 1.5rem 3rem 1.5rem;
   border-radius: 5px;
   padding: 1rem;
-  border-top: 4px solid #0061f2;
 }
 
 .servicessecond__link:hover {
@@ -389,6 +388,18 @@ p {
   color: #ffffff;
 }
 
+.color-b {
+  border-top: 4px solid #0061f2;
+}
+
+.color-r {
+  border-top: 4px solid #e81500;
+}
+
+.color-bl {
+  border-top: 4px solid #1f2d41;
+}
+
 .need {
   border-top: 1px solid rgba(0, 0, 0, 0.1);
   background-color: #EFF3F9;
@@ -431,7 +442,6 @@ p {
   margin: 0 1.5rem 3rem 1.5rem;
   border-radius: 5px;
   padding: 1rem;
-  border-top: 4px solid #0061f2;
 }
 
 .need__wrapper--first {
@@ -491,6 +501,18 @@ p {
   background-color: #0061f2;
   padding: 0.75rem;
   color: #ffffff;
+}
+
+.color-b {
+  border-top: 4px solid #0061f2;
+}
+
+.color-g {
+  border-top: 4px solid #00ac69;
+}
+
+.color-o {
+  border-top: 4px solid #f4a100;
 }
 
 .informationfirst {

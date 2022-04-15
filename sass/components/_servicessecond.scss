@@ -52,7 +52,6 @@
         margin: 0 1.5rem 3rem 1.5rem;
         border-radius: 5px;
         padding: 1rem;
-        border-top: 4px solid #0061f2;
     }
 
     &__link:hover {
@@ -100,5 +99,21 @@
         color: $first-white-color;
     }
     
+}
+
+.color {
+
+    &-b {
+        border-top: 4px solid #0061f2;
+    }
+
+    &-r {
+        border-top: 4px solid #e81500;
+    }
+    
+    &-bl {
+        border-top: 4px solid #1f2d41;
+    }
+
 }
 
