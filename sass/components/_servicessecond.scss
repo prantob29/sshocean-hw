@@ -56,12 +56,6 @@
 
     &__link:hover {
         box-shadow: 0 0.15rem 1.75rem 0 rgba(31, 45, 65, 0.15);
-        // box-shadow: 0 0.15rem 1.75rem 0 rgb(31 45 65 / 15%);
-        // transition: box-shadow .15s ease-in-out,
-        // transition: transform .15s ease-in-out,
-        // box-shadow .15s ease-in-out;
-        // transition: transform .15s ease-in-out,
-        // box-shadow .15s ease-in-out,
     }
 
     &__wrapper--first {
@@ -116,4 +110,3 @@
     }
 
 }
-
