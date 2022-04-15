@@ -1,3 +1,5 @@
+// Index
+
 @import "utils/variables";
 
 @import "base/base";
@@ -25,3 +27,13 @@
 @import "components/informationsecond";
 
 @import "components/footer";
+
+// Openvpn
+
+@import "components/openvpn/header-openvpn";
+
+@import "components/openvpn/whatis-openvpn";
+
+@import "components/openvpn/openvpn-countries";
+
+@import "components/openvpn/questions-vpn";

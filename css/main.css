@@ -822,4 +822,168 @@ p {
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
+
+.header__openvpn {
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  text-align: center;
+  background-color: #0958EB;
+  background-image: linear-gradient(135deg, #0061f2 0%, rgba(105, 0, 199, 0.8) 100%);
+}
+
+.header__openvpn--title {
+  font-size: 2.5rem;
+  color: #ffffff;
+}
+
+.header__openvpn--title--paragraph {
+  color: rgba(255, 255, 255, 0.5);
+  margin-bottom: 30px;
+  font-size: 1.15rem;
+}
+
+.header__openvpn--wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.location {
+  padding: 3rem 0 2rem 0;
+  text-align: center;
+}
+
+.location__сaption {
+  display: inline-block;
+  padding: 0.5em;
+  color: #0061f2;
+  background-color: #bfd6f8;
+  border-radius: 10rem;
+  font-size: 75%;
+  font-weight: 400;
+  line-height: 1;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.location__paragraph {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #687281;
+  text-align: left;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.openvpn__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.openvpn__list-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 225px;
+  border-radius: 5px;
+  padding: 1rem;
+  margin-right: 3rem;
+  margin-bottom: 3rem;
+}
+
+.openvpn__list--title {
+  margin-bottom: 0.8rem;
+  font-weight: 500;
+  line-height: 1.2;
+  color: #323f52;
+  font-size: 1rem;
+}
+
+.openvpn__list--country {
+  margin-bottom: 0.8rem;
+  font-weight: 500;
+  line-height: 1.2;
+  color: #323f52;
+  font-size: 1.2rem;
+}
+
+.openvpn__list--img {
+  border-radius: 0.35rem;
+  margin-bottom: 1.3rem;
+}
+
+.openvpn__list--server {
+  display: inline-block;
+  padding: 0.25em 0.4em;
+  font-size: 75%;
+  font-weight: 400;
+  line-height: 1;
+  border-radius: 0.35rem;
+  color: #ffffff;
+  background-color: #00ac69;
+  margin-bottom: 1.6rem;
+}
+
+.openvpn__list--link {
+  margin-top: 0.5rem;
+  border-radius: 50rem;
+  color: #fff;
+  background-color: #0061f2;
+  border-color: #0061f2;
+  padding: 0.8rem 0.35rem;
+  width: 100%;
+  text-align: center;
+}
+
+.questions {
+  padding: 6rem 0;
+}
+
+.questions__caption {
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+  color: #0061f2;
+  margin-top: 0;
+}
+
+.questions__paragraph {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #687281;
+  text-align: left;
+}
+
+.questions__list {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #687281;
+  text-align: left;
+}
+
+.questions__list li::before {
+  content: "\2022";
+  font-weight: 100;
+}
 /*# sourceMappingURL=main.css.map */
