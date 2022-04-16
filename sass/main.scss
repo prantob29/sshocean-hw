@@ -1,4 +1,4 @@
-// Index
+// Base
 
 @import "utils/variables";
 
@@ -9,6 +9,8 @@
 @import "base/font-face";
 
 @import "base/visually-hidden";
+
+// Index
 
 @import "components/nav";
 
@@ -39,3 +41,11 @@
 @import "components/openvpn/countries-openvpn";
 
 @import "components/openvpn/questions-vpn";
+
+// Shadow Socks
+
+@import "components/shadowsocks/header-shadowsocks";
+
+@import "components/shadowsocks/countries-shadowsocks";
+
+@import "components/shadowsocks/question-shadowsocks";
