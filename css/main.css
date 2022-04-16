@@ -51,8 +51,66 @@ p {
 
 @font-face {
   font-family: 'Metropolis';
+  src: url("./fonts/Metropolisthin.woff2") format("woff2"), url("./fonts/Metropolisthin.woff") format("woff");
+  font-weight: 100;
+  font-style: normal;
   font-display: swap;
-  src: url("./fonts/Metropolis.woff") format("woff"), url("./fonts/Metropolis.woff2") format("woff2"), url("./fonts/Metropolisblack.woff") format("woff"), url("./fonts/Metropolisblack.woff2") format("woff2"), url("./fonts/Metropolisblackitalic.woff") format("woff"), url("./fonts/Metropolisblackitalic.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: 'Metropolis';
+  src: url("./fonts/Metropolisextralight.woff2") format("woff2"), url("./fonts/Metropolisextralight.woff") format("woff");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Metropolis';
+  src: url("./fonts/Metropolislight.woff2") format("woff2"), url("./fonts/Metropolislight.woff") format("woff2");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Metropolis';
+  src: url("./fonts/Metropolismedium.woff2") format("woff2"), url("./fonts/Metropolismedium.woff") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Metropolis';
+  src: url("./fonts/Metropolissemibold.woff2") format("woff2"), url("./fonts/Metropolissemibold.woff") format("woff2");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Metropolis';
+  src: url("./fonts/Metropolisbold.woff2") format("woff2"), url("./fonts/Metropolisbold.woff") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Metropolis';
+  src: url("./fonts/Metropolisextrabold.woff2") format("woff2"), url("./fonts/Metropolisextrabold.woff") format("woff2");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Metropolis';
+  src: url("./fonts/Metropolisblack.woff2") format("woff2"), url("./fonts/Metropolisblack.woff") format("woff2");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
 }
 
 .visually-hidden {
