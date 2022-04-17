@@ -12,25 +12,25 @@
 
 // Index
 
-@import "components/nav";
+@import "components/index/nav";
 
-@import "components/header";
+@import "components/index/header";
 
-@import "components/whatis";
+@import "components/index/whatis";
 
-@import "components/servicesfirst";
+@import "components/index/servicesfirst";
 
-@import "components/visitor";
+@import "components/index/visitor";
 
-@import "components/servicessecond";
+@import "components/index/servicessecond";
 
-@import "components/needmore";
+@import "components/index/needmore";
 
-@import "components/informationfirst";
+@import "components/index/informationfirst";
 
-@import "components/informationsecond";
+@import "components/index/informationsecond";
 
-@import "components/footer";
+@import "components/index/footer";
 
 // Openvpn
 
@@ -49,8 +49,6 @@
 @import "components/shadowsocks/countries-shadowsocks";
 
 @import "components/shadowsocks/question-shadowsocks";
-
-
 
 // Trojan
 
