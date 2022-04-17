@@ -1,0 +1,28 @@
+.header__wireguard {
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    text-align: center;
+
+    background-color: #0958EB;
+    background-image: linear-gradient(135deg, #0061f2 0%, rgba(105, 0, 199, 0.8) 100%);
+
+    &--title {
+        font-size: 2.5rem;
+        color: $first-white-color;
+    }
+
+    &--title--paragraph {
+        color: rgba(255, 255, 255, .5);
+        margin-bottom: 30px;
+        font-size: 1.15rem;
+    }
+    &--wrapper {
+        display: flex;
+        flex-direction: column;
+        margin-top: 100px;
+    }
+}
+
+.wireguard-color{
+    color: $first-white-color;
+}

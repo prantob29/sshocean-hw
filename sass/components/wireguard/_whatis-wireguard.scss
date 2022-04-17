@@ -1,0 +1,28 @@
+.wireguard {
+    margin: 6rem 0;
+    text-align: center;
+
+    &__paragraph {
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.5;
+        color: #687281;
+        text-align: left;
+        margin-top: 0;
+        margin-bottom: 1rem;
+    }
+
+    &__header--list {
+        text-align: left;
+
+    }
+
+    &__list--item{
+        margin-top: 0;
+        margin-bottom: 0.5rem;
+        font-size: 0.9rem;
+        font-weight: 400;
+        color: #687281;
+    }
+}
+
