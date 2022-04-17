@@ -344,6 +344,14 @@ p {
   color: #687281;
 }
 
+#clock {
+  color: #00ac69;
+  font-weight: 400;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+}
+
 .visitor {
   padding: 1rem;
   margin-bottom: 3rem;
