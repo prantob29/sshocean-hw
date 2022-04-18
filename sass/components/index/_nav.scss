@@ -14,6 +14,10 @@
     &--link {
         margin-right: 6px;
         padding: 8px;
+        &:last-child {
+            padding: 0;
+            margin-right: 0;
+        }
     }
 
     &--linkhome {
@@ -29,4 +33,14 @@
 
 .nav__link {
     margin-right: 150px;
+}
+
+
+.hours,
+.minutes,
+.seconds {
+    // margin-right: 6px;
+    // padding: 8px;
+    // font-weight: 500;
+    color: rgba(0, 0, 0, 0.5);
 }

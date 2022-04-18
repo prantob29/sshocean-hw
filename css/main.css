@@ -153,6 +153,11 @@ p {
   padding: 8px;
 }
 
+.nav__list--link:last-child {
+  padding: 0;
+  margin-right: 0;
+}
+
 .nav__list--linkhome {
   font-weight: 500;
   color: rgba(0, 0, 0, 0.5);
@@ -164,6 +169,12 @@ p {
 
 .nav__link {
   margin-right: 150px;
+}
+
+.hours,
+.minutes,
+.seconds {
+  color: rgba(0, 0, 0, 0.5);
 }
 
 .header {
@@ -344,7 +355,10 @@ p {
   color: #687281;
 }
 
-#clock {
+#clock,
+.hours1,
+.minutes1,
+.seconds1 {
   color: #00ac69;
   font-weight: 400;
   line-height: 1;

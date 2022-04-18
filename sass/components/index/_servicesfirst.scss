@@ -62,7 +62,10 @@
     }
 }
 
-#clock {
+#clock,
+.hours1,
+.minutes1,
+.seconds1 {
     color: #00ac69;
     font-weight: 400;
     line-height: 1;

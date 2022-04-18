@@ -189,8 +189,16 @@
                     <polyline points="7 23 3 19 7 15"></polyline>
                     <path d="M21 13v2a4 4 0 0 1-4 4H3"></path>
                 </svg>
-                <span>Reset in: 07:54:49</span>
+                <span>Reset in:</span>
+                   
               </a>
+            </li>
+            <li class="nav__list--link">
+                <div id="countdown">
+                    <span class="hours"></span>
+                    <span class="minutes"></span>
+                    <span class="seconds"></span>
+                </div>
             </li>
           </ul>
         </div>
@@ -303,14 +311,19 @@
             <div class="servicesfirst__wrapper">
                 <div class="servicesfirst__wrapper--wrapper">
                     Server time:
-                    <span id="clock">16:35:35</span>
+                    <span id="clock"></span>
                     (GMT+7)
                 </div>
                 <div class="servicesfirst__wrapper--wrapper">
                     Reset time: 00:00 &amp; 12:00
                 </div>
                 <div class="servicesfirst__wrapper--wrapper">
-                    <div id="clockwelcome">Reset in: 07:23:09</div>
+                    <span>Reset in:</sapn>
+                    <div id="countdown1">
+                        <span class="hours1">00</span>
+                        <span class="minutes1">00</span>
+                        <span class="seconds1">00</span>
+                    </div>
                 </div>
             </div>
             <ul class="servicesfirst__list">
@@ -1813,5 +1826,7 @@
     </footer>
 
     <script src="./js/clock.js"></script>
+    <script src="./js/countdown-timer.js"></script>
+    <script src="./js/countdown-timer1.js"></script>
   </body>
 </html>
