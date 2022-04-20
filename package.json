@@ -1,0 +1,22 @@
+{
+  "name": "sshocean-hw",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexFilonenko88/sshocean-hw.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlexFilonenko88/sshocean-hw/issues"
+  },
+  "homepage": "https://github.com/AlexFilonenko88/sshocean-hw#readme",
+  "dependencies": {
+    "express-handlebars": "^6.0.5"
+  }
+}
