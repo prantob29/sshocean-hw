@@ -230,6 +230,22 @@ p {
   border-radius: 0.35rem;
 }
 
+ul .block {
+  display: none;
+}
+
+.open > li {
+  display: block;
+}
+
+.block li {
+  display: none;
+}
+
+ul .open li {
+  display: block;
+}
+
 .header {
   background-color: #0958EB;
   height: 800px;

@@ -109,3 +109,30 @@
     vertical-align: baseline;
     border-radius: 0.35rem;
 }
+
+// .menu-l{
+//     display: flex;
+//     justify-content: space-around;
+// }
+
+// .sub-menu {
+//     overflow: hidden;
+//     opacity: 0;
+//     height: 0;
+// }
+
+ul .block {
+    display: none;
+}
+
+.open > li {
+    display: block;
+}
+
+.block li {
+    display: none;;
+}
+
+ul .open li {
+    display: block;
+}
