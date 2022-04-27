@@ -1,3 +1,5 @@
+'use strict'
+
 // const elements = document.getElementsByClassName('menu-item');
 
 // for (i = 0; i < elements.length; i += 1){
