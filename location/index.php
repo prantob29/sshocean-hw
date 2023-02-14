@@ -252,7 +252,7 @@ if ($return_var === 0) {
     <div class="col-12">
 <div class="alert alert-success text-center p-2" style="font-size: 14px;">
 <strong>Success!</strong> Account has been successfully created.
-<hr>?>
+<hr>
 <ul class="list-unstyled">
 <li class="list-group-item d-flex justify-content-between align-items-center">Host <b>pl02.sshocean.net</b></li>
 <li class="list-group-item d-flex justify-content-between align-items-center">Username <b><?php echo $username ?></b></li>
