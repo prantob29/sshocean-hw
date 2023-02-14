@@ -244,11 +244,16 @@
         $password = $_POST['password'];
         $expiry_date = date('Y-m-d', strtotime('+3 days'));
         
-        exec("sudo useradd -e $expiry_date -m $username", $output, $return_var);
+        exec("sudo useradd $expiry_date -m $username", $output, $return_var);
         exec("echo $username:$password | sudo chpasswd", $output, $return_var);
       // Check if the user was added successfully
 if ($return_var === 0) {
-    echo "User $username was added successfully!";
+    //echo "User $username was added successfully!";
+    echo "Informasi SSH & OpenVPN";
+echo "==============================";
+echo "Username: $username";
+echo "Password: $password";
+echo "Expired: $expiry_date";
 } else {
     echo "Failed to add user $username. Error: " . implode("\n", $output);
 }
