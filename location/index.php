@@ -244,8 +244,8 @@
         $password = $_POST['password'];
         $expiry_date = date('Y-m-d', strtotime('+3 days'));
         
-        exec("sudo useradd -e $expiry_date -m $username");
-        exec("echo $username:$password | sudo chpasswd");
+        exec("sudo useradd -e $expiry_date -m $username", $output, $return_var);
+        exec("echo $username:$password | sudo chpasswd", $output, $return_var);
       }
       // Check if the user was added successfully
 if ($return_var === 0) {
