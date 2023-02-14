@@ -250,10 +250,10 @@
 if ($return_var === 0) {
     //echo "User $username was added successfully!";
     echo "Informasi SSH & OpenVPN";
-echo "==============================";
-echo "Username: $username";
-echo "Password: $password";
-echo "Expired: $expiry_date";
+    echo "==============================";
+    echo "Username: $username";
+    echo "Password: $password";
+    echo "Expired: $expiry_date";
 } else {
     echo "Failed to add user $username. Error: " . implode("\n", $output);
 }
