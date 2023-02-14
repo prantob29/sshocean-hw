@@ -247,8 +247,8 @@
         exec("sudo useradd -e $expiry_date -m $username", $output, $return_var);
         exec("echo $username:$password | sudo chpasswd", $output, $return_var);
       // Check if the user was added successfully
-if ($return_var === 0) {?>
-    //echo "User $username was added successfully!";
+if ($return_var === 0) {
+    ?>
     <div class="col-12">
 <div class="alert alert-success text-center p-2" style="font-size: 14px;">
 <strong>Success!</strong> Account has been successfully created.
