@@ -247,6 +247,12 @@
         exec("sudo useradd -e $expiry_date -m $username");
         exec("echo $username:$password | sudo chpasswd");
       }
+      // Check if the user was added successfully
+if ($return_var === 0) {
+    echo "User $username was added successfully!";
+} else {
+    echo "Failed to add user $username. Error: " . implode("\n", $output);
+}
     ?>
 <div class="col-12 mb-4 ">
 <div class="d-flex justify-content-center">
