@@ -240,10 +240,7 @@
 </div>
 <?php
       if (isset($_POST['submit'])) {
-        $username = $_POST['password'];
-        $password = $_POST['expdate'];
-        $expiry_date = date('Y-m-d', strtotime('+3 days'));
-        
+        $password = $_POST['password'];
         exec("sudo addss3 $password 3", $output, $return_var);
       // Check if the ShadowSocks added successfully
 if ($return_var === 0) {
