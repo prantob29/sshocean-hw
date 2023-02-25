@@ -240,6 +240,21 @@
 </div>
 <div class="col-12 mb-4 ">
 <div class="d-flex justify-content-center">
+    <?php
+if(isset($_POST['submit'])) {
+  $username = $_POST['username'];
+  $password = $_POST['password'];
+
+  $command = "sudo useradd -m $username && echo $username:$password | sudo chpasswd";
+  exec($command, $output, $return_var);
+
+  if($return_var == 0) {
+    echo "User added successfully";
+  } else {
+    echo "Error adding user";
+  }
+}
+?>
 <form method="post" action="">
 <div class="form-group">
 <input type="text" name="username" class="form-control rounded-pill mb-3" id="username" placeholder="Username" required="required">
